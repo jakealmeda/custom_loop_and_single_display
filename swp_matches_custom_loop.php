@@ -4,15 +4,30 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit; // Exit if accessed directly
 }
 
+include_once( 'swp_wp_query_posts.php' );
+
 class SWPCustomMatchesLoop {
 
-	public function swp_matches_custom_loop_func() {
+	public function swp_custom_loop_display_func( $params = array() ) {
+
+		extract(shortcode_atts(array(
+			'post_type' 		=> 'post_type',
+			'posts_per_page' 	=> 'posts_per_page',
+		), $params));
 
 		global $post;
+
+		// check posts per page value
+		if( is_numeric( $posts_per_page ) ) {
+			$posts_per_page_count = $posts_per_page;
+		} else {
+			$posts_per_page_count = -1;
+		}
+
 		// arguments, adjust as needed
 		$args = array(
-			'post_type'      	=> 'matches',
-			'posts_per_page' 	=> -1,
+			'post_type'      	=> $post_type,
+			'posts_per_page' 	=> $posts_per_page_count,
 			'post_status'    	=> 'publish',
 			'paged'          	=> get_query_var( 'paged' ),
 		);
@@ -24,7 +39,11 @@ class SWPCustomMatchesLoop {
 		*/
 		global $wp_query;
 
-		$wp_query = new WP_Query( $args );
+		//$wp_query = new WP_Query( $args );
+
+		$swp_new_query = new SWPWPQueryPosts();
+
+		$wp_query = $swp_new_query->swp_query_archive_posts( $post_type, $posts_per_page_count );
 
 		if ( have_posts() ) : 
 
@@ -67,7 +86,7 @@ class SWPCustomMatchesLoop {
 	// CONSTRUCT
 	public function __construct() {
 		
-		add_shortcode( 'swp_matches_custom_loop', array( $this, 'swp_matches_custom_loop_func' ) );
+		add_shortcode( 'swp_custom_loop_display', array( $this, 'swp_custom_loop_display_func' ) );
 
     }
 

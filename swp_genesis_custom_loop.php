@@ -229,7 +229,8 @@ class SWPGenesisCustomPostLoop extends SWPWPQueryPosts {
 			// other archives
 			
 			// do nothing if a page is being viewed
-			//if ( is_singular( 'page' ) )  return
+			if ( is_page() )
+				return;
 
 			// Remove genesis loop on homepage
 			remove_action( 'genesis_loop', 'genesis_do_loop' );
