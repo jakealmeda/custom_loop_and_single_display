@@ -3,7 +3,7 @@
 ?>
 
 <div class="item-pic">
-	<?php echo '<a href="'.get_the_permalink().'">'.get_the_post_thumbnail( get_the_ID(), 'thumbnail' ).'</a>'; ?>
+	<?php echo '<a href="'.get_the_permalink().'">'.get_the_post_thumbnail( get_the_ID(), 'featured-image' ).'</a>'; ?>
 </div>
 <div class="item-title">
 	<?php echo '<a href="'.get_the_permalink().'">'.get_the_title().'</a>'; ?>

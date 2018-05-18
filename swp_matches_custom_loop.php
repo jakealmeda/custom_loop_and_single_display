@@ -41,9 +41,9 @@ class SWPCustomMatchesLoop {
 				} else {
 					$swp_video_linked = do_shortcode( '[swp_youtube url="'.$swp_video_link.'" width="760" height="580" responsive="yes"][/swp_youtube]' );
 				}
-
+				// <iframe width="760" height="580" src="'.$swp_video_link.'" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 				$output .= '<div class="module module-matches">
-						<div class="item-video"><iframe width="760" height="580" src="'.$swp_video_link.'" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+						<div class="item-video">'.$swp_video_linked.'</div>
 						<div class="item-title">'.get_the_title().'</div>
 						<div class="item-content-matchdate">When: '.get_post_meta( get_the_ID(), "schedule", TRUE ).'</div>
 						<div class="item-content-matchlocation">Venue: '.get_post_meta( get_the_ID(), "location", TRUE).'</div>

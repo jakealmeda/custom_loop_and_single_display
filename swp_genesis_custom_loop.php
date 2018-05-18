@@ -22,16 +22,6 @@ class SWPGenesisCustomPostLoop extends SWPWPQueryPosts {
 	// MAIN FUNCTION
 	public function swp_my_custom_loop() {
 
-		if ( ! is_home() ) return;
-		
-		/*$args = array(
-				'post_type' 		=> 'post',
-				'post_status'    	=> 'publish',
-				'posts_per_page' 	=> get_option('posts_per_page'),
-				'paged' 			=> get_query_var( 'paged' ),
-			);
-
-		$the_query = new WP_Query( $args );*/
 		$the_query = $this->swp_query_archive_posts( 'post', get_option('posts_per_page') );
 		
 		// The Loop
@@ -40,104 +30,125 @@ class SWPGenesisCustomPostLoop extends SWPWPQueryPosts {
 			// SET COUNTER
 			$a = 1;
 
-			// POSTS CONTAINER - OPEN
-			echo '<div class="section-main"><div class="section-wrap">';
+			?><section class="area-home"><div class="section-wrap"><?php
 
-			while ( $the_query->have_posts() ) {
+				// SECTION-MAINSTORY (WP POSTS) CONTAINER - OPEN
+				?><section class="area-mainstory"><div class="area-wrap"><?php
 
-				$the_query->the_post();
+				while ( $the_query->have_posts() ) {
 
-				$swp_video_link = get_post_meta( get_the_ID(), 'video_link', TRUE );
+					$the_query->the_post();
 
-				// MAIN STORY - FEATURED
-				if( $a == 1 ) {
+					$swp_video_link = get_post_meta( get_the_ID(), 'video_link', TRUE );
 
-					// MAINSTORY CONTAINER - OPEN
-					echo '<div class="module-mainstory">';
+					// MAIN STORY - FEATURED
+					if( $a == 1 ) {
 
-					// FILTER POST FORMAT
-					if( get_post_format() == "video" ) {
+						// MAINSTORY CONTAINER - OPEN
+						?><div class="module-mainstory"><?php
 
-						if( $swp_video_link ) {
+						// FILTER POST FORMAT
+						if( get_post_format() == "video" ) {
 
-							include( 'views/swp_video_display.php' );
+							if( $swp_video_link ) {
 
-						} else {
+								include( 'views/swp_video_display.php' );
 
-							echo '<div class="item-title">Video link missing.</div>';
+							} else {
 
-						}
+								?><div class="item-title">Video link missing.</div><?php
 
-					} else {
-
-						include( 'views/swp_article_display.php' );
-
-					}
-
-					// MAINSTORY CONTAINER - CLOSE
-					echo '</div>';
-
-				} else {
-
-					// FEATURE CONTAINER - OPEN
-					echo '<div class="module-feature">';
-
-					// FILTER POST FORMAT
-					if( get_post_format() == "video" ) {
-
-						if( $swp_video_link ) {
-
-							include( 'views/swp_video_display.php' );
+							}
 
 						} else {
 
-							echo '<div class="item-title">Video link missing.</div>';
+							include( 'views/swp_article_display.php' );
 
 						}
 
+						// MAINSTORY CONTAINER - CLOSE
+						?></div><?php
+
 					} else {
 
-						include( 'views/swp_article_display.php' );
+						// FEATURE CONTAINER - OPEN
+						?><div class="module-feature"><?php
+
+						// FILTER POST FORMAT
+						if( get_post_format() == "video" ) {
+
+							if( $swp_video_link ) {
+
+								include( 'views/swp_video_display.php' );
+
+							} else {
+
+								?><div class="item-title">Video link missing.</div><?php
+
+							}
+
+						} else {
+
+							include( 'views/swp_article_display.php' );
+
+						}
+
+						// FEATURE CONTAINER - CLOSE
+						?></div><?php
 
 					}
 
-					// FEATURE CONTAINER - CLOSE
-					echo '</div>';
-
+					// VALIDATE COUNTER
+					if( $a == 3 ) {
+						// REVERT VALUE
+						$a = 1;
+					} else {
+						// INCREMENT COUNTER
+						$a++;
+					}
 				}
 
-				// VALIDATE COUNTER
-				if( $a == 3 ) {
-					// REVERT VALUE
-					$a = 1;
-				} else {
-					// INCREMENT COUNTER
-					$a++;
-				}
-			}
+				/* PAGINATION
+				 * ---------------------------------------------------------------------------- */
+					/* With previous and next pages
+					 * -------------- */
+					//previous_posts_link(); next_posts_link();
 
-			/* PAGINATION
-			 * ---------------------------------------------------------------------------- */
-				/* With previous and next pages
-				 * -------------- */
-				//previous_posts_link(); next_posts_link();
+					/* Without previous and next pages
+					 * -------------- */
+					//the_posts_pagination( array( 'mid_size'  => 2 ) );
 
-				/* Without previous and next pages
-				 * -------------- */
-				//the_posts_pagination( array( 'mid_size'  => 2 ) );
+					/* Pagination with Alternative Prev/Next Text
+					 * -------------- */
+					echo get_the_posts_pagination( array(
+					    'mid_size' => 2,
+					    'prev_text' => __( 'Prev', 'textdomain' ),
+					    'next_text' => __( 'Next', 'textdomain' ),
+					) );
+				/* PAGINATION END
+				 * ---------------------------------------------------------------------------- */
 
-				/* Pagination with Alternative Prev/Next Text
-				 * -------------- */
-				echo get_the_posts_pagination( array(
-				    'mid_size' => 2,
-				    'prev_text' => __( 'Prev', 'textdomain' ),
-				    'next_text' => __( 'Next', 'textdomain' ),
-				) );
-			/* PAGINATION END
-			 * ---------------------------------------------------------------------------- */
+				// SECTION-MAINSTORY (WP POSTS) CONTAINER - CLOSE
+				?></div></section>
 
-			// POSTS CONTAINER - CLOSE
-			echo '</div></div>';
+				<?php // EXTERNAL POSTS CONTAINER - OPEN ?>
+				<section class="area-timeline"><div class="section-wrap">
+
+				<?php echo do_shortcode( '[pods name="external_post" orderby="date_posted desc" limit="10" template="External Posts"]' ); ?>
+
+				<?php // EXTERNAL POSTS CONTAINER - CLOSE ?>
+				</div></section>
+
+				<?php // VIDEOS CONTAINER - OPEN ?>
+				<section class="area-video"><div class="section-wrap">
+
+				<?php echo do_shortcode( '[pods name="matches" orderby="t.post_date desc" limit="5" template="Matches"]' ); ?>
+
+				<?php // VIDEOS POSTS CONTAINER - CLOSE ?>
+				</div></section>
+
+
+			</div></section><?php
 
 			/* Restore original Post Data */
 			wp_reset_postdata();
@@ -202,7 +213,7 @@ class SWPGenesisCustomPostLoop extends SWPWPQueryPosts {
 	// REMOVE DEFAULT LOOP
 	public function remove_genesis_default_loop() {
 		
-		if( is_home() && is_front_page() ) {
+		if( is_home() || is_front_page() ) {
 
 			// Remove genesis loop on homepage
 			remove_action( 'genesis_loop', 'genesis_do_loop' );
@@ -235,6 +246,8 @@ class SWPGenesisCustomPostLoop extends SWPWPQueryPosts {
 		
 		//do_action( 'genesis_loop', array( $this, 'remove_genesis_default_loop' ) );
 		add_action( 'get_header', array( $this, 'remove_genesis_default_loop' ) );
+
+		//add_shortcode( 'swp_custom_loop', array( $this, 'swp_my_custom_loop' ) );
 
     }
 
