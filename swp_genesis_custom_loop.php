@@ -45,7 +45,7 @@ class SWPGenesisCustomPostLoop extends SWPWPQueryPosts {
 					if( $a == 1 ) {
 
 						// MAINSTORY CONTAINER - OPEN
-						?><div class="module-mainstory"><?php
+						?><div class="module-mainstory"><div class="module-wrap"><?php
 
 						// FILTER POST FORMAT
 						if( get_post_format() == "video" ) {
@@ -60,19 +60,23 @@ class SWPGenesisCustomPostLoop extends SWPWPQueryPosts {
 
 							}
 
+						} elseif( get_post_format() == "gallery" ) {
+
+							include( 'views/swp_gallery_display.php' );
+
 						} else {
 
-							include( 'views/swp_article_display.php' );
+							include( 'views/swp_article_large_display.php' );
 
 						}
 
 						// MAINSTORY CONTAINER - CLOSE
-						?></div><?php
+						?></div></div><?php
 
 					} else {
 
 						// FEATURE CONTAINER - OPEN
-						?><div class="module-feature"><?php
+						?><div class="module-feature"><div class="module-wrap"><?php
 
 						// FILTER POST FORMAT
 						if( get_post_format() == "video" ) {
@@ -87,14 +91,18 @@ class SWPGenesisCustomPostLoop extends SWPWPQueryPosts {
 
 							}
 
-						} else {
+						} elseif( get_post_format() == "gallery" ) {
 
-							include( 'views/swp_article_display.php' );
+							include( 'views/swp_gallery_display.php' );
+
+						}  else {
+
+							include( 'views/swp_article_small_display.php' );
 
 						}
 
 						// FEATURE CONTAINER - CLOSE
-						?></div><?php
+						?></div></div><?php
 
 					}
 
