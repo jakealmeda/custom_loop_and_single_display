@@ -13,8 +13,14 @@ if( $parse[ 'host' ] == 'dailymotion' ) {
 
 // [su_youtube_advanced url="https://youtu.be/mL36WLFQoAo" autohide="no" https="yes" class="item-youtube"]
 
+if( $a == 1 ){
+	$add_this_class = " highlight";
+} else {
+	$add_this_class = "";
+}
+
 ?>
-<div class="module module-video">
+<div class="module module-video<?php echo $add_this_class; ?>">
 	<div class="item-video"><?php echo $swp_video_linked; ?></div>
 	<div class="item-title"><?php echo get_the_title(); ?></div>
 </div>
