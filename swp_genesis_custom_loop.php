@@ -15,12 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 //INCLUDE OTHER PLUGIN FILES
 require_once( 'swp_wp_query_posts.php' );
-<<<<<<< HEAD
 require_once( 'swp_videos_custom_loop.php' );
-=======
-<<<<<<< HEAD
->>>>>>> 7d3392cbc2d8bddc8ac66aa08e384458e9e34a1a
->>>>>>> ac9c7d6f63d769b7aad3e1b966477fbe17801679
 require_once( 'swp_timeline_external_posts.php' );
 
 class SWPGenesisCustomPostLoop extends SWPWPQueryPosts {
