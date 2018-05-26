@@ -57,6 +57,11 @@ class SWPTimeLineStories {
 
 		}
 
+		    $path = get_term_meta( $get_the_term_id, 'source_url', TRUE ); 
+		    $echo = pathinfo( $path );
+		    echo $echo['dirname'].' | '; var_dump( $echo['basename']) ; echo ' | '.$echo['filename'].' | '.$echo['extension'];
+
+
 		// use this featured image
 		$featured_image = plugin_dir_url( __FILE__ ).'images/'.$image_sub_dir.'/'.$image_sub_dir_sub.$filename.'.jpg';
 
