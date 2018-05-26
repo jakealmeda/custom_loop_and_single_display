@@ -57,9 +57,14 @@ class SWPTimeLineStories {
 
 		}
 
-		    $path = get_term_meta( $get_the_term_id, 'source_url', TRUE ); 
+		    $path = get_post_field( 'featured_image', get_the_ID(), $context );
 		    $echo = pathinfo( $path );
-		    echo $echo['dirname'].' | '; var_dump( $echo['basename']) ; echo ' | '.$echo['filename'].' | '.$echo['extension'];
+		    //echo $echo['dirname'].' | '; var_dump( $echo['basename']) ; echo ' | '.$echo['filename'].' | '.$echo['extension'];
+		    var_dump( getimagesize( $path ) ); echo '<br />';
+		    echo '<h3>'.getimagesize( $path )->mime.'</h3>';
+		    if( $this->is_image( $path ) ) {
+		    	//echo 'TRUE: '.$path;
+		    }
 
 
 		// use this featured image
@@ -79,6 +84,16 @@ class SWPTimeLineStories {
 // ----------------------------------------------
 		wp_reset_postdata();
 
+	}
+
+	public function is_image($path) {
+	    $a = getimagesize($path);
+	    $image_type = $a[2];
+
+	    if(in_array($image_type , array(IMAGETYPE_GIF , IMAGETYPE_JPEG ,IMAGETYPE_PNG , IMAGETYPE_BMP))) {
+	        return true;
+	    }
+	    return false;
 	}
 
 	// CONSTRUCT
