@@ -10,7 +10,31 @@ if( $parse[ 'host' ] == 'dailymotion' ) {
 	// YouTube
 	$swp_video_linked = do_shortcode( '[swp_youtube url="'.$swp_video_link.'" width="760" height="580" responsive="yes"][/swp_youtube]' );
 }
+<<<<<<< HEAD
 ?>
 
 <div class="item-video"><?php echo $swp_video_linked; ?></div>
 <div class="item-title"><?php echo get_the_title(); ?></div>
+=======
+<<<<<<< HEAD
+?>
+
+<div class="item-video"><?php echo $swp_video_linked; ?></div>
+<div class="item-title"><?php echo get_the_title(); ?></div>
+=======
+
+// [su_youtube_advanced url="https://youtu.be/mL36WLFQoAo" autohide="no" https="yes" class="item-youtube"]
+
+if( $a == 1 ){
+	$add_this_class = " highlight";
+} else {
+	$add_this_class = "";
+}
+
+?>
+<div class="module module-video<?php echo $add_this_class; ?>">
+	<div class="item-video"><?php echo $swp_video_linked; ?></div>
+	<div class="item-title"><?php echo get_the_title(); ?></div>
+</div>
+>>>>>>> 7d3392cbc2d8bddc8ac66aa08e384458e9e34a1a
+>>>>>>> ac9c7d6f63d769b7aad3e1b966477fbe17801679
