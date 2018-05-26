@@ -1,5 +1,8 @@
 <?php
 // template for displaying post entries
+if ( ! defined( 'ABSPATH' ) ) {
+    exit; // Exit if accessed directly
+}
 ?>
 
 <div class="item-pic">
