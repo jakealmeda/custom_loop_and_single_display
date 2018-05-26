@@ -15,7 +15,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 //INCLUDE OTHER PLUGIN FILES
 require_once( 'swp_wp_query_posts.php' );
+<<<<<<< HEAD
 require_once( 'swp_videos_custom_loop.php' );
+=======
+require_once( 'swp_matches_custom_loop.php' );
+>>>>>>> 7d3392cbc2d8bddc8ac66aa08e384458e9e34a1a
 require_once( 'swp_timeline_external_posts.php' );
 
 class SWPGenesisCustomPostLoop extends SWPWPQueryPosts {
@@ -34,7 +38,11 @@ class SWPGenesisCustomPostLoop extends SWPWPQueryPosts {
 			?><section class="area-home"><div class="section-wrap"><?php
 
 				// SECTION-MAINSTORY (WP POSTS) CONTAINER - OPEN
+<<<<<<< HEAD
 				?><section class="area-post"><div class="area-wrap"><?php
+=======
+				?><section class="area-latest"><div class="area-wrap"><?php
+>>>>>>> 7d3392cbc2d8bddc8ac66aa08e384458e9e34a1a
 
 				while ( $the_query->have_posts() ) {
 
@@ -45,6 +53,12 @@ class SWPGenesisCustomPostLoop extends SWPWPQueryPosts {
 					// MAIN STORY - FEATURED
 					if( $a == 1 ) {
 
+<<<<<<< HEAD
+=======
+						// MAINSTORY CONTAINER - OPEN
+						?><div class="module-feature highlight"><div class="module-wrap"><?php
+
+>>>>>>> 7d3392cbc2d8bddc8ac66aa08e384458e9e34a1a
 						// FILTER POST FORMAT
 						if( get_post_format() == "video" ) {
 
@@ -159,6 +173,7 @@ class SWPGenesisCustomPostLoop extends SWPWPQueryPosts {
 				/* Restore original Post Data */
 				wp_reset_postdata();
 				?>
+<<<<<<< HEAD
 
 				<?php // EXTERNAL POSTS CONTAINER - OPEN ?>
 				<section class="area-timeline"><div class="area-wrap">
@@ -166,6 +181,13 @@ class SWPGenesisCustomPostLoop extends SWPWPQueryPosts {
 						//echo do_s hortcode( '[pods name="external_post" orderby="date_posted desc" limit="10" template="External Posts"]' );
 						echo do_shortcode( '[swp_timelinestories_display post_type="external_post" posts_per_page="20" orderby="date_posted" order="desc"][/swp_timelinestories_display]' );
 					?>
+=======
+
+				<?php // EXTERNAL POSTS CONTAINER - OPEN ?>
+				<section class="area-timeline"><div class="area-wrap">
+
+					<?php echo do_shortcode( '[pods name="external_post" orderby="date_posted desc" limit="10" template="External Posts"]' ); ?>
+>>>>>>> 7d3392cbc2d8bddc8ac66aa08e384458e9e34a1a
 
 				<?php // EXTERNAL POSTS CONTAINER - CLOSE ?>
 				</div></section>
@@ -173,7 +195,11 @@ class SWPGenesisCustomPostLoop extends SWPWPQueryPosts {
 				<?php // VIDEOS CONTAINER - OPEN ?>
 				<section class="area-videos"><div class="area-wrap">
 
+<<<<<<< HEAD
 					<?php echo do_shortcode( '[swp_video_loop_display post_type="matches" orderby="post_date" order="desc"][/swp_video_loop_display]' ); ?>
+=======
+					<?php echo do_shortcode( '[swp_custom_loop_display post_type="matches" orderby="post_date" order="desc"]' ); ?>
+>>>>>>> 7d3392cbc2d8bddc8ac66aa08e384458e9e34a1a
 
 				<?php // VIDEOS POSTS CONTAINER - CLOSE ?>
 				</div></section>
@@ -270,8 +296,11 @@ class SWPGenesisCustomPostLoop extends SWPWPQueryPosts {
 			add_action( 'genesis_loop', array( $this, 'swp_my_custom_loop_archives' ) );
 			
 		}*/
+<<<<<<< HEAD
 
 	}
+=======
+>>>>>>> 7d3392cbc2d8bddc8ac66aa08e384458e9e34a1a
 
 	// Genesis full width layout
 	public function swp_force_genesis_full_width_layout() {
