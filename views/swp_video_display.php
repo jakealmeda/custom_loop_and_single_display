@@ -10,11 +10,7 @@ if( $parse[ 'host' ] == 'dailymotion' ) {
 	// YouTube
 	$swp_video_linked = do_shortcode( '[swp_youtube url="'.$swp_video_link.'" width="760" height="580" responsive="yes"][/swp_youtube]' );
 }
-
-// [su_youtube_advanced url="https://youtu.be/mL36WLFQoAo" autohide="no" https="yes" class="item-youtube"]
-
 ?>
-<div class="module module-video">
-	<div class="item-video"><?php echo $swp_video_linked; ?></div>
-	<div class="item-title"><?php echo get_the_title(); ?></div>
-</div>
+
+<div class="item-video"><?php echo $swp_video_linked; ?></div>
+<div class="item-title"><?php echo get_the_title(); ?></div>

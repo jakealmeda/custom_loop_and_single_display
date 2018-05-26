@@ -15,14 +15,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 //INCLUDE OTHER PLUGIN FILES
 require_once( 'swp_wp_query_posts.php' );
-require_once( 'swp_matches_custom_loop.php' );
+require_once( 'swp_videos_custom_loop.php' );
+require_once( 'swp_timeline_external_posts.php' );
 
 class SWPGenesisCustomPostLoop extends SWPWPQueryPosts {
 
 	// MAIN FUNCTION
 	public function swp_my_custom_loop() {
 
-		$the_query = $this->swp_query_archive_posts( 'post', get_option('posts_per_page') );
+		$the_query = $this->swp_query_archive_posts( 'post', get_option('posts_per_page'), NULL, NULL );
 		
 		// The Loop
 		if ( $the_query->have_posts() ) {
@@ -33,7 +34,7 @@ class SWPGenesisCustomPostLoop extends SWPWPQueryPosts {
 			?><section class="area-home"><div class="section-wrap"><?php
 
 				// SECTION-MAINSTORY (WP POSTS) CONTAINER - OPEN
-				?><section class="area-mainstory"><div class="area-wrap"><?php
+				?><section class="area-post"><div class="area-wrap"><?php
 
 				while ( $the_query->have_posts() ) {
 
@@ -44,11 +45,10 @@ class SWPGenesisCustomPostLoop extends SWPWPQueryPosts {
 					// MAIN STORY - FEATURED
 					if( $a == 1 ) {
 
-						// MAINSTORY CONTAINER - OPEN
-						?><div class="module-mainstory"><div class="module-wrap"><?php
-
 						// FILTER POST FORMAT
 						if( get_post_format() == "video" ) {
+
+							?><div class="module-post post-video highlight"><div class="module-wrap"><?php
 
 							if( $swp_video_link ) {
 
@@ -60,26 +60,33 @@ class SWPGenesisCustomPostLoop extends SWPWPQueryPosts {
 
 							}
 
+							?></div></div><?php
+
 						} elseif( get_post_format() == "gallery" ) {
 
+							?><div class="module-post post-gallery highlight"><div class="module-wrap"><?php
+
 							include( 'views/swp_gallery_display.php' );
+
+							?></div></div><?php
 
 						} else {
 
-							include( 'views/swp_article_large_display.php' );
+							?><div class="module-post highlight"><div class="module-wrap"><?php
+
+								include( 'views/swp_article_large_display.php' );
+
+							// POST CONTAINER - CLOSE
+							?></div></div><?php
 
 						}
 
-						// MAINSTORY CONTAINER - CLOSE
-						?></div></div><?php
-
 					} else {
-
-						// FEATURE CONTAINER - OPEN
-						?><div class="module-feature"><div class="module-wrap"><?php
 
 						// FILTER POST FORMAT
 						if( get_post_format() == "video" ) {
+
+							?><div class="module-post post-video"><div class="module-wrap"><?php
 
 							if( $swp_video_link ) {
 
@@ -91,18 +98,27 @@ class SWPGenesisCustomPostLoop extends SWPWPQueryPosts {
 
 							}
 
+							?></div></div><?php
+
 						} elseif( get_post_format() == "gallery" ) {
+
+							?><div class="module-post post-gallery"><div class="module-wrap"><?php
 
 							include( 'views/swp_gallery_display.php' );
 
+							?></div></div><?php
+
 						}  else {
 
-							include( 'views/swp_article_small_display.php' );
+							// POST CONTAINER - OPEN
+							?><div class="module-post"><div class="module-wrap"><?php
+							
+								include( 'views/swp_article_small_display.php' );
+
+							// POST CONTAINER - CLOSE
+							?></div></div><?php
 
 						}
-
-						// FEATURE CONTAINER - CLOSE
-						?></div></div><?php
 
 					}
 
@@ -130,8 +146,8 @@ class SWPGenesisCustomPostLoop extends SWPWPQueryPosts {
 					 * -------------- */
 					echo get_the_posts_pagination( array(
 					    'mid_size' => 2,
-					    'prev_text' => __( 'Prev', 'textdomain' ),
-					    'next_text' => __( 'Next', 'textdomain' ),
+					    'prev_text' => __( '<<', 'textdomain' ),
+					    'next_text' => __( '>>', 'textdomain' ),
 					) );
 				/* PAGINATION END
 				 * ---------------------------------------------------------------------------- */
@@ -139,27 +155,31 @@ class SWPGenesisCustomPostLoop extends SWPWPQueryPosts {
 				// SECTION-MAINSTORY (WP POSTS) CONTAINER - CLOSE
 				?></div></section>
 
-				<?php // EXTERNAL POSTS CONTAINER - OPEN ?>
-				<section class="area-timeline"><div class="section-wrap">
+				<?php
+				/* Restore original Post Data */
+				wp_reset_postdata();
+				?>
 
-				<?php echo do_shortcode( '[pods name="external_post" orderby="date_posted desc" limit="10" template="External Posts"]' ); ?>
+				<?php // EXTERNAL POSTS CONTAINER - OPEN ?>
+				<section class="area-timeline"><div class="area-wrap">
+					<?php 
+						//echo do_s hortcode( '[pods name="external_post" orderby="date_posted desc" limit="10" template="External Posts"]' );
+						echo do_shortcode( '[swp_timelinestories_display post_type="external_post" posts_per_page="20" orderby="date_posted" order="desc"][/swp_timelinestories_display]' );
+					?>
 
 				<?php // EXTERNAL POSTS CONTAINER - CLOSE ?>
 				</div></section>
 
 				<?php // VIDEOS CONTAINER - OPEN ?>
-				<section class="area-video"><div class="section-wrap">
+				<section class="area-videos"><div class="area-wrap">
 
-				<?php echo do_shortcode( '[pods name="matches" orderby="t.post_date desc" limit="5" template="Matches"]' ); ?>
+					<?php echo do_shortcode( '[swp_video_loop_display post_type="matches" orderby="post_date" order="desc"][/swp_video_loop_display]' ); ?>
 
 				<?php // VIDEOS POSTS CONTAINER - CLOSE ?>
 				</div></section>
 
 
 			</div></section><?php
-
-			/* Restore original Post Data */
-			wp_reset_postdata();
 
 		} else {
 			// no posts found
@@ -223,15 +243,18 @@ class SWPGenesisCustomPostLoop extends SWPWPQueryPosts {
 		
 		if( is_home() || is_front_page() ) {
 
+			// Remove sidebar (force a layout) on homepage
+			add_filter( 'genesis_site_layout', array( $this, 'swp_force_genesis_full_width_layout' ) );
+
 			// Remove genesis loop on homepage
 			remove_action( 'genesis_loop', 'genesis_do_loop' );
 
 			// Replace the standard loop with our custom loop
 			add_action( 'genesis_loop', array( $this, 'swp_my_custom_loop' ) );
 
-		} elseif ( is_singular( 'post' ) ) {
+		}/* elseif ( is_singular( 'post' ) ) {
 
-			$this->customize_genesis_loop();
+			//$this->customize_genesis_loop();
 
 		} else {
 			// other archives
@@ -245,15 +268,19 @@ class SWPGenesisCustomPostLoop extends SWPWPQueryPosts {
 
 			// Replace the standard loop with our custom loop
 			add_action( 'genesis_loop', array( $this, 'swp_my_custom_loop_archives' ) );
+			
+		}*/
 
-		}
+	}
 
+	// Genesis full width layout
+	public function swp_force_genesis_full_width_layout() {
+        return 'full-width-content';
 	}
 
 	// CONSTRUCT
 	public function __construct() {
 		
-		//do_action( 'genesis_loop', array( $this, 'remove_genesis_default_loop' ) );
 		add_action( 'get_header', array( $this, 'remove_genesis_default_loop' ) );
 
 		//add_shortcode( 'swp_custom_loop', array( $this, 'swp_my_custom_loop' ) );

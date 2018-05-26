@@ -1,0 +1,628 @@
+<html>
+<head>
+
+<title>
+PhilBoxing.com, The Philippines' Boxing Portal</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<link rel="stylesheet" href="philboxing.css">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6215672798844835",
+    enable_page_level_ads: true
+  });
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6753682-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" background="images/bg_banner.jpg">
+  <tr valign="top">
+    <td width="780"><a href="http://philboxing.com/"><img src="images/pb.logo.01.jpg" width="780" height="94" border="0"></a></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr valign="top">
+    <td>
+
+      <table width="780" border="0" leftmargin="0" topmargin="0" cellpadding="0" cellspacing="0">
+        <tr>
+                  <td width="166" valign="middle" bgcolor="#FFFFFF">
+                  <div align=center><span class="date">Philippines, 26 May 2018</span></div>                  </td>
+              <td width="1" bgcolor="#FFFFFF"></td>
+          <td width="467" valign="middle"> &nbsp; </td>
+          <td width="146"><img src="images/pb.logo.03.jpg" width="146" height="22"></td>
+          </tr>
+        </table>
+        </td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="12" bgcolor="#FFFFFF">
+  <tr valign="top">
+    <td>
+            <div align="center">
+                <!-- Leaderboard No. 2 -->
+<script type="text/javascript"><!--
+google_ad_client = "pub-6215672798844835";
+/* 728x90, created 2/1/10 */
+google_ad_slot = "1851962207";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+            </div>
+
+        </td>
+  </tr>
+</table>
+
+<table width="100%" height="1" border="0" cellspacing="0" cellpadding="0" bgcolor="#dddddd">
+  <tr>
+    <td></td>
+  </tr>
+</table>
+
+<table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="166"  bgcolor="#30246F" valign="top">
+        <br>
+            <table width="100%" height="50%" border="0" cellspacing="0" cellpadding="0">
+    <tr>  
+
+    <td width="6" valign="top" bgcolor="#30246F">&nbsp;</td>
+    <td width="154" valign="top"> 
+    <form method="post" action="http://philboxing.com/boxers/search.php">
+      <table align=center border=0 cellpadding=3 cellspacing=3 bgcolor=#30246F width="154" background="images/bg.search.box.jpg">
+        <tr> 
+          <td>
+            <div align="center"><font size="1" color="#eeeeee" face="Arial, Helvetica, sans-serif"><b>Search Boxer:</b></font><br><font size="1" face="Arial, Helvetica, sans-serif">First 
+              Name</font> 
+              <input type=text name=firstname size="16">
+            </div>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <div align="center"><font size="1" face="Arial, Helvetica, sans-serif">Last 
+              Name </font> 
+              <input type=text name=lastname size="16">
+            </div>
+          </td>
+        </tr>
+        <tr> 
+          <td align=center>
+            <input name=action value=GO type=SUBMIT>
+        </tr>
+      </table>
+    </form>
+            
+      <p class="sidenav"> <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+        <a href="http://philboxing.com/boxers/" class="sidenav">BOXERS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+        <a href="http://philboxing.com/boxers/champions.php" class="sidenav">CURRENT CHAMPIONS&nbsp; 
+        </a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+        <a href="http://philboxing.com/boxers/former.world.champions.php" class="sidenav">FORMER CHAMPIONS 
+        &nbsp;&nbsp;</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+        <a href="http://philboxing.com/boxers/ratings.php" class="sidenav">RATINGS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+        <a href="http://philboxing.com/boxers/schedules.php" class="sidenav">FIGHT 
+        SCHEDULES&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+        <a href="http://philboxing.com/boxers/results.php" class="sidenav">FIGHT 
+        RESULTS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br>		
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+        <a href="http://philboxing.com/news/" class="sidenav">NEWS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+        <a href="http://philboxing.com/housenews/" class="sidenav">HOUSE NEWS         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+        <a href="http://forum.philboxing.com/" class="sidenav">FORUM &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+        <a href="http://gallery.philboxing.com/" class="sidenav">FIGHT GALLERIES&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+        <a href="http://philboxing.com/boxers/trainers.php" class="sidenav">TRAINERS 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+        <a href="http://philboxing.com/boxers/managers.php" class="sidenav">MANAGERS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+        <a href="http://philboxing.com/boxers/promoters.php" class="sidenav">PROMOTERS 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+        <a href="#" class="sidenav">BOXING GYMS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+        <a href="http://philboxing.com/gallery2/thumbnails.php?album=30" class="sidenav">RING CARD GIRLS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+
+      </p>
+	  <div align="center">	  
+       <br>
+	   <img src="http://philboxing.com/images/philboxing.logo.150x150.jpg" border="0"><br><br>
+       <a href="http://delavegasmiles.com" target="_blank"><img src="http://philboxing.com/ads/delavega/delavega.150x150.jpg" border="0"></a>
+        </div>
+	     </td>
+         <td width="6" bgcolor="#30246F"></td>
+         </tr>
+	  </table>              <table width="100%" height="50%" border="0" cellspacing="0" cellpadding="0">
+         <tbody>
+         <tr>
+         <td width="6" valign="bottom" bgcolor="#30246F">&nbsp;</td>
+         <td width="154" valign="bottom">
+      <div align="center">
+
+      <p class="sidenav">
+      <img src="images/pb_team.jpg" width="150" height="30" vspace="0"><br>
+       <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+        <a href="http://philboxing.com/news/list.articles.php?aid=1" class="sidenav">Dong Secuya  </a><br>Web Editor<br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+        <a href="http://philboxing.com/news/list.articles.php?aid=884" class="sidenav">Rene Bonsubre, Jr. 
+        </a><br>Contributing Editor<br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+        <a href="http://philboxing.com/news/list.articles.php?aid=12" class="sidenav">Homer D. Sayson 
+        </a><br>NBA Section Editor<br>		
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>		
+		<br>
+
+        <img src="images/contributors.jpg" width="150" height="14" vspace="4"><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+        <a href="http://philboxing.com/news/list.articles.php?aid=24" class="sidenav">Ronnie Nathanielsz</a><br>
+		<img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+		<a href="http://philboxing.com/news/list.articles.php?aid=2736" class="sidenav">Rich Mazon</a><br>				
+		<img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+		<a href="http://philboxing.com/news/list.articles.php?aid=283" class="sidenav">Eddie Alinea</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+        <a href="http://philboxing.com/news/list.articles.php?aid=316" class="sidenav">Epifanio M. Almeda</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+                <a href="http://philboxing.com/news/list.articles.php?aid=948" class="sidenav">Anthony Andales</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+        <a href="http://philboxing.com/news/list.articles.php?aid=418" class="sidenav">Jason Aniel</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+        <a href="http://philboxing.com/news/list.articles.php?aid=1394" class="sidenav">Hesiquio Balderas</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>		
+        <a href="http://philboxing.com/news/list.articles.php?aid=901" class="sidenav">Sid Bañez</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+        <a href="http://philboxing.com/news/list.articles.php?aid=3163" class="sidenav">Brett Bonetti</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>		
+        <a href="http://philboxing.com/news/list.articles.php?aid=719" class="sidenav">Marlon Bernardino</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+        <a href="http://philboxing.com/news/list.articles.php?aid=214" class="sidenav">Winchell Campos</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+		<a href="http://philboxing.com/news/list.articles.php?aid=2342" class="sidenav">Socrates Celestial</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+		<a href="http://philboxing.com/news/list.articles.php?aid=4088" class="sidenav">T. Chin-Te</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+		<a href="http://philboxing.com/news/list.articles.php?aid=1421" class="sidenav">Carlos Costa</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+		<a href="http://philboxing.com/news/list.articles.php?aid=1224" class="sidenav">Christopher Cruz</a><br>						
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+		<a href="http://philboxing.com/news/list.articles.php?aid=1887" class="sidenav">Rob Cruz</a><br>				
+		<img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+		<a href="http://philboxing.com/news/list.articles.php?aid=1207" class="sidenav">Jonathan Davis</a><br>				
+		<img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>		
+        <a href="http://philboxing.com/news/list.articles.php?aid=658" class="sidenav">Dr. Ed de la Vega</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+        <a href="http://philboxing.com/news/list.articles.php?aid=698" class="sidenav">Lito delos Reyes</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+        <a href="http://philboxing.com/news/list.articles.php?aid=2575" class="sidenav">Gianluca (Rio) Di Caro</a><br>		
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>		
+        <a href="http://philboxing.com/news/list.articles.php?aid=10" class="sidenav">Edwin G. Espejo</a><br>		
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+        <a href="http://philboxing.com/news/list.articles.php?aid=375" class="sidenav">Dennis U. Eroa</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>		
+        <a href="http://philboxing.com/news/list.articles.php?aid=3" class="sidenav">Ron Galarpe</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+        <a href="http://philboxing.com/news/list.articles.php?aid=11" class="sidenav">Joaquin Henson</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>		
+        <a href="http://philboxing.com/news/list.articles.php?aid=1759" class="sidenav">Oliver Iglesias</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>				
+        <a href="http://philboxing.com/news/list.articles.php?aid=2481" class="sidenav">Dionis Jacobe</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>						
+        <a href="http://philboxing.com/news/list.articles.php?aid=1170" class="sidenav">Ted Lerner</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+		<a href="http://philboxing.com/news/list.articles.php?aid=2" class="sidenav">Salven Lagumbay</a><br>		
+		<img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+		<a href="http://philboxing.com/news/list.articles.php?aid=899" class="sidenav">Reylan Loberternos</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+        <a href="http://philboxing.com/news/list.articles.php?aid=2885" class="sidenav">Mike Angel Lopez</a><br>		
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>		
+        <a href="http://philboxing.com/news/list.articles.php?aid=829" class="sidenav">Salvador Lopez</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+        <a href="http://philboxing.com/news/list.articles.php?aid=3196" class="sidenav">Joan Secuya-Medida</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>		
+        <a href="http://philboxing.com/news/list.articles.php?aid=3194" class="sidenav">Ryan Medida</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>				
+        <a href="http://philboxing.com/news/list.articles.php?aid=260" class="sidenav">Rico Navarro</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+        <a href="http://philboxing.com/news/list.articles.php?aid=1080" class="sidenav">Rod Mijares</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+        <a href="http://philboxing.com/news/list.articles.php?aid=1130" class="sidenav">Manny Pacquiao</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+		<a href="http://philboxing.com/news/list.articles.php?aid=1881" class="sidenav">Gerry Peñalosa</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+		<a href="http://philboxing.com/news/list.articles.php?aid=1462" class="sidenav">Greg R. Penilla, M.D.</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>		
+        <a href="http://philboxing.com/news/list.articles.php?aid=609" class="sidenav">Gov. Manny Piñol</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+        <a href="http://philboxing.com/news/list.articles.php?aid=1405" class="sidenav">Dr. Allan Recto</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+        <a href="http://philboxing.com/news/list.articles.php?aid=502" class="sidenav">Hermie Rivera</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+		<a href="http://philboxing.com/news/list.articles.php?aid=1017" class="sidenav">Emmanuel T. Rivera</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+        <a href="http://philboxing.com/news/list.articles.php?aid=816" class="sidenav">Virgi T. Romano</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+        <a href="http://philboxing.com/news/list.articles.php?aid=2819" class="sidenav">Nicholai R. Roska</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>		
+        <a href="http://philboxing.com/news/list.articles.php?aid=1146" class="sidenav">Maloney L. Samaco</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+        <a href="http://philboxing.com/news/list.articles.php?aid=1078" class="sidenav">Sev Sarmenta</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>
+        <a href="http://philboxing.com/news/list.articles.php?aid=3440" class="sidenav">Reynaldo Seno</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>		
+        <a href="http://philboxing.com/news/list.articles.php?aid=3162" class="sidenav">Myron Sta. Ana</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>		
+		<a href="http://philboxing.com/news/list.articles.php?aid=2080" class="sidenav">Atty. Danrex Joseph V. Tapdasan</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>		
+		<a href="http://philboxing.com/news/list.articles.php?aid=161" class="sidenav">Recah Trinidad</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>				
+				<a href="http://philboxing.com/news/list.articles.php?aid=2758" class="sidenav">Reni M. Valenzuela</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>				
+		<a href="http://philboxing.com/news/list.articles.php?aid=2499" class="sidenav">Mark F. Villanueva</a><br>
+        <img src="images/dotgrey.gif" width="150" height="1" vspace="4"><br>				
+        <img src="images/dotclear.gif" width="150" height="1" vspace="7"><br>	
+
+      <a href="awards.php"><img src="images/elorde.awardee.gif" vspace="0" border="0"></a><br><br>
+
+ 	    </div>
+		
+           </td>
+           <td width="6" bgcolor="#30246F"></td>
+         </tr>
+         </tbody>
+	  </table>
+    <td width="1" bgcolor="#AB2807"></td>
+    <td width="8">&nbsp;</td>
+    <td valign="top"><table><tr><td><table><tr><td><a href="http://philboxing.com/news/story-136714.html" target="" class="headline1">ANCAJAS-SULTAN FEATS, FACTS AND FIGURES PART III</a><br><font class="headline1_source">By Maloney L. Samaco, <a href="http://www.philboxing.com" target="">PhilBoxing.com</a>, Sat, 26 May 2018</font><br><font class="headline1_blurb"><img src="http://philboxing.com/news/pix/ancajas-sultan.final.pc.06.330w.jpg"><br>
+Jerwin "Pretty Boy" Juntilla Ancajas stands 5 ft 6 in (1.68 m) and has a reach of 66½ in (169 cm).  He was born on January 1, 1992 (age 26) in Panabo, Davao del Norte, Philippines.  He is a southpaw and has a boxing &nbsp;&nbsp;</font><a href="http://philboxing.com/news/story-136714.html" target=""><i><font size="1">Read Full Story >>></font></i></a><br><hr><a href="http://philboxing.com/news/story-136711.html" target="" class="headline1">LUCAS 'LA MAQUINA' MATTHYSSE DISCUSSES TRAINING CAMP AHEAD OF SUPER FIGHT AGAINST MANNY 'PACMAN' PACQUIAO</a><br><font class="headline1_source"><a href="http://www.philboxing.com" target="">PhilBoxing.com</a>, Sat, 26 May 2018</font><br><font class="headline1_blurb"><img src="http://philboxing.com/news/pix/matthysse.workout.180522.330w.jpg"><br>
+
+SUNDAY, JULY 15 AT AXIATA ARENA IN KUALA LUMPUR, MALAYSIA
+
+INDIO, CALIF.: Argentine knockout artist Lucas "La Maquina" Matthysse (39-4, 36 KOs) discussed his training camp routine ahead of his super fight against f&nbsp;&nbsp;</font><a href="http://philboxing.com/news/story-136711.html" target=""><i><font size="1">Read Full Story >>></font></i></a><br><hr><a href="http://philboxing.com/news/story-136713.html" target="" class="headline1">Regis Prograis to Headline New Orleans Homecoming July 14 at Lakefront Arena</a><br><font class="headline1_source"><a href="http://www.philboxing.com" target="">PhilBoxing.com</a>, Sat, 26 May 2018</font><br><font class="headline1_blurb"><img src="http://philboxing.com/news/pix/prograis-velasco.poster.330w.jpg"><br>
+Top lightweight prospect Teofimo Lopez to appear in 10-round co-feature
+Tickets on Sale Friday, May 25 at 10 a.m. CST
+
+NEW ORLEANS (May 25, 2018) —  Regis “Rougarou” Prograis was born in New Orleans and became a figh&nbsp;&nbsp;</font><a href="http://philboxing.com/news/story-136713.html" target=""><i><font size="1">Read Full Story >>></font></i></a><br><hr></td></tr></table><table align="center"><tr><td><div align="center"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-6215672798844835";
+/* PhilBoxing Link Ad 728x15 */
+google_ad_slot = "8922666758";
+google_ad_width = 728;
+google_ad_height = 15;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></td></tr></table><table><tr><td width="60%" valign="top"><a href="http://philboxing.com/news/story-136712.html" target="" class="headline2">Why did coach Ty Lue benched Korver in Cavs’Game 5 loss to Celts?</a><br><font class="headline2_source">By Eddie Alinea, <a href="http://www.philboxing.com" target="">PhilBoxing.com</a>, Sat, 26 May 2018</font><br><font class="headline2_blurb"><img src="http://philboxing.com/news/pix/korver.300x200.jpg"><br>
+Days after seeing Cleveland face elimination, debate on why Cavaliers’ coach Lue benched the Cavs’ third best player Kyle Korver most of Game 5 where Boston took a 96-83 win and went ahead, 3-2, in their best-of-seven NBA Eastern Con&nbsp;&nbsp;</font><a href="http://philboxing.com/news/story-136712.html" target=""><i><font size="1">Read Full Story >>></font></i></a><p><a href="http://philboxing.com/news/story-136710.html" target="" class="headline2">Golden Boy Media and Entertainment Awarded 4 Telly Awards</a><br><font class="headline2_source"><a href="http://www.philboxing.com" target="">PhilBoxing.com</a>, Fri, 25 May 2018</font><br><font class="headline2_blurb">Golden Boy Media and Entertainment Awarded 4 Telly Awards in First Year of Entry, Including 2 Coveted Silver Tellys -- The Program's Top Honor
+
+Los Angeles, CA -- (May 25, 2018) – Golden Boy Promotions Inc., the world’s leading boxing promotions company, announced today that it has been recognized&nbsp;&nbsp;</font><a href="http://philboxing.com/news/story-136710.html" target=""><i><font size="1">Read Full Story >>></font></i></a><p><a href="http://philboxing.com/news/story-136709.html" target="" class="headline2">Tyron Woodley Says Kendrick Should've Given White Girl 'N-Word Pass'</a><br><font class="headline2_source"><a href="http://www.philboxing.com" target="">PhilBoxing.com</a>, Fri, 25 May 2018</font><br><font class="headline2_blurb"><img src="http://philboxing.com/news/pix/woodley.tmz.180524.300w.jpg"><br>
+TMZ SPORTS -- UFC Champ Tyron Woodley says Kendrick Lamar should've let a white concertgoer get away with saying the n-word ... saying the young lady deserved a pass.
+
+It happened last week during a concert in Alabama ... &nbsp;&nbsp;</font><a href="http://philboxing.com/news/story-136709.html" target=""><i><font size="1">Read Full Story >>></font></i></a><p><a href="http://www.espn.com/boxing/story/_/id/23600067/jonas-sultan-not-fan-fame-just-wants-become-champion" target="_blank" class="headline2">Not a fan of fame: Jonas Sultan just wants to fulfill his dream of becoming a champion</a><br><font class="headline2_source">By Ryan Songalia, <a href="http://sports.espn.go.com/" target="_blank">ESPN.com</a>, Fri, 25 May 2018</font><br><font class="headline2_blurb">FRESNO, Calif. -- Less than a week before the biggest fight of his career, Jonas Sultan quietly strums an acoustic guitar and recites the lyrics to "Bakit Ba?" -- a Tagalog song about a spurned lover taking comfort in a bottle of beer, playing for an audience of no one in particular. It's a hobby he&nbsp;&nbsp;</font><a href="http://www.espn.com/boxing/story/_/id/23600067/jonas-sultan-not-fan-fame-just-wants-become-champion" target="_blank"><i><font size="1">Read Full Story >>></font></i></a><p><a href="https://www.spin.ph/boxing/news/jerwin-ancajas-jonas-sultan-face-to-face-two-days-before-fight" target="_blank" class="headline2">No trash talk, only respect as Ancajas, Sultan face off before world title fight</a><br><font class="headline2_source">By Gerry Ramos, <a href="http://www.spin.ph/" target="_blank">Spin.ph</a>, Fri, 25 May 2018</font><br><font class="headline2_blurb">FRESNO, CALIFORNIA – There were no fireworks, no heated exchanges between champion Jerwin Ancajas and challenger Jonas Sultan as they came face-to-face again two days before they make Philippine boxing history.
+
+Oh, the two didn’t exchange handshakes when the ceremony was over.
+
+The two failed t&nbsp;&nbsp;</font><a href="https://www.spin.ph/boxing/news/jerwin-ancajas-jonas-sultan-face-to-face-two-days-before-fight" target="_blank"><i><font size="1">Read Full Story >>></font></i></a><p><a href="http://news.abs-cbn.com/sports/05/25/18/boxing-uncomfortable-staredown-between-good-guy-opponents-ancajas-sultan" target="_blank" class="headline2">Uncomfortable staredown between good-guy opponents Ancajas, Sultan</a><br><font class="headline2_source">By Roy Luarca, <a href="http://www.abs-cbnnews.com/" target="_blank">ABS-CBN News</a>, Fri, 25 May 2018</font><br><font class="headline2_blurb">FRESNO, Calif.—Champion Jerwin Ancajas and challenger Jonas Sultan on Thursday tried in vain to play their parts as protagonists in a world title fight.
+
+They didn’t smile and didn’t blink during the staredown, but most of all they didn’t shake hands when they went down the podium of Tioga Sequioa&nbsp;&nbsp;</font><a href="http://news.abs-cbn.com/sports/05/25/18/boxing-uncomfortable-staredown-between-good-guy-opponents-ancajas-sultan" target="_blank"><i><font size="1">Read Full Story >>></font></i></a><p><a href="https://www.spin.ph/boxing/news/jerwin-ancajas-us-fanbase-bob-arum" target="_blank" class="headline2">Arum: Fil-Ams used to come up to talk about Pacquiao. Now they talk about Ancajas</a><br><font class="headline2_source">By Gerry Ramos, <a href="http://www.spin.ph/" target="_blank">Spin.ph</a>, Fri, 25 May 2018</font><br><font class="headline2_blurb">FRESNO, CALIFORNIA – Jerwin Ancajas is slowly building a U.S. fan base as he gears up for the defense of his International Boxing Federation (IBF) super-flyweight title this Saturday (Sunday, Manila time).
+
+Top Rank Promotions chairman Bob Arum is looking to line up two more fights for the rising &nbsp;&nbsp;</font><a href="https://www.spin.ph/boxing/news/jerwin-ancajas-us-fanbase-bob-arum" target="_blank"><i><font size="1">Read Full Story >>></font></i></a><p><a href="http://news.abs-cbn.com/sports/05/25/18/boxing-how-do-ancajas-jonas-sultan-trainers-view-their-odds-on-fight-night" target="_blank" class="headline2">How do Ancajas, Jonas Sultan trainers view their odds on fight night</a><br><font class="headline2_source">By Roy Luarca, <a href="http://www.abs-cbnnews.com/" target="_blank">ABS-CBN News</a>, Fri, 25 May 2018</font><br><font class="headline2_blurb">FRESNO, Calif.—An honest assessment or sheer coincidence.
+
+Head trainers Joven Jimenez and Edito Villamor cited the same percentages when asked on Thursday about the chances of their respective fighters tangling for the International Boxing Federation super flyweight crown at Save Smart Center her&nbsp;&nbsp;</font><a href="http://news.abs-cbn.com/sports/05/25/18/boxing-how-do-ancajas-jonas-sultan-trainers-view-their-odds-on-fight-night" target="_blank"><i><font size="1">Read Full Story >>></font></i></a><p><a href="http://www.espn.com/boxing/story/_/id/23599090/wba-champion-yafai-expects-ancajas-win-comfortably" target="_blank" class="headline2">Fellow champion Khalid Yafai predicts successful title defense from Jerwin Ancajas</a><br><font class="headline2_source">By Ryan Songalia, <a href="http://sports.espn.go.com/" target="_blank">ESPN.com</a>, Fri, 25 May 2018</font><br><font class="headline2_blurb">FRESNO, Calif. -- As the photo opportunities wrapped up at Thursday's press conference, the final two men standing on stage were the two men holding world title belts.
+
+IBF Super Flyweight titleholder Jerwin Ancajas and WBA champion Kal Yafai shook hands and showed each other respect and posed for&nbsp;&nbsp;</font><a href="http://www.espn.com/boxing/story/_/id/23599090/wba-champion-yafai-expects-ancajas-win-comfortably" target="_blank"><i><font size="1">Read Full Story >>></font></i></a><p><a href="https://www.bbc.com/sport/boxing/44250459" target="_blank" class="headline2">Kal Yafai: British boxer vows to impress America by beating David Carmona</a><br><font class="headline2_source">By Luke Reddy, <a href="http://news.bbc.co.uk" target="_blank">BBC Sport</a>, Fri, 25 May 2018</font><br><font class="headline2_blurb">WBA world super-flyweight champion Kal Yafai has vowed to impress America when he makes his debut in the country on Saturday.
+
+The Birmingham boxer fights Mexican David Carmona in California in a bout that will likely position him for a title unification contest.
+
+IBF champion Jerwin Ancajas, ru&nbsp;&nbsp;</font><a href="https://www.bbc.com/sport/boxing/44250459" target="_blank"><i><font size="1">Read Full Story >>></font></i></a><p><a href="http://news.abs-cbn.com/sports/05/25/18/bob-arum-on-pacquiao-relationship-were-still-very-friendly" target="_blank" class="headline2">Bob Arum on Pacquiao relationship — ‘We’re still very friendly’</a><br><font class="headline2_source"><a href="http://www.abs-cbnnews.com/" target="_blank">ABS-CBN News</a>, Fri, 25 May 2018</font><br><font class="headline2_blurb">FRESNO, Calif.—He may have been relegated to a supporting role in the Manny Pacquiao-Lucas Matthysse fight on July 15, but Bob Arum holds no rancor.
+
+The revered promoter always remembers their close relationship over the years.
+
+“Well, we’re still very friendly,” Arum said Thursday. “We (Top Ra&nbsp;&nbsp;</font><a href="http://news.abs-cbn.com/sports/05/25/18/bob-arum-on-pacquiao-relationship-were-still-very-friendly" target="_blank"><i><font size="1">Read Full Story >>></font></i></a><p><a href="https://www.spin.ph/boxing/manny-pacquiao/news/manny-pacquiao-bob-arum-still-friends" target="_blank" class="headline2">Bob Arum says he and former prized ward Pacquiao 'still very friendly'</a><br><font class="headline2_source">By Gerry Ramos, <a href="http://www.spin.ph/" target="_blank">Spin.ph</a>, Fri, 25 May 2018</font><br><font class="headline2_blurb">FRESNO, CALIFORNIA – Despite parting ways, Manny Pacquiao and Top Rank promoter Bob Arum remain very cordial to each other.
+
+“We’re still very friendly,” a smiling Bob Arum said when asked about his relationship with his former prized ward at the end of their 12-year promotional partnership.
+
+Th&nbsp;&nbsp;</font><a href="https://www.spin.ph/boxing/manny-pacquiao/news/manny-pacquiao-bob-arum-still-friends" target="_blank"><i><font size="1">Read Full Story >>></font></i></a><p><a href="http://www.manilatimes.net/new-pacquiao-sparmate-due-to-arrive-today/401152/" target="_blank" class="headline2">New Pacquiao sparmate due to arrive today</a><br><font class="headline2_source">By Josef T. Ramos, <a href="http://www.manilatimes.net" target="_blank">The Manila Times</a>, Fri, 25 May 2018</font><br><font class="headline2_blurb">Manny Pacquiao will have a new sparring partner in the person of Australian lightweight George Kambosos Jr. in preparation for his fight against World Boxing Association (WBA) welterweight champion Lucas Matthysse on July 15 at the Axiata Arena in Kuala Lumpur, Malaysia.
+
+“He (Kambosos Jr.) is amo&nbsp;&nbsp;</font><a href="http://www.manilatimes.net/new-pacquiao-sparmate-due-to-arrive-today/401152/" target="_blank"><i><font size="1">Read Full Story >>></font></i></a><p><a href="https://www.ringnews24.com/2018/05/25/buboy-fernandez-denies-rumours-manny-pacquiao-is-spent/" target="_blank" class="headline2">Buboy Fernandez denies rumours Manny Pacquiao is spent</a><br><font class="headline2_source">By Anthony Cocks, <a href="http://ringnews24.com/" target="_blank">RingNews24</a>, Fri, 25 May 2018</font><br><font class="headline2_blurb">Trainer Buboy Fernandez has hit back at claims that former eight-division world champion Manny Pacquiao is burnt out after splitting his time between his dual roles as senator and boxer.
+
+Pacquiao is currently training for his July 15 fight against WBA “regular” welterweight champion Lucas Matthys&nbsp;&nbsp;</font><a href="https://www.ringnews24.com/2018/05/25/buboy-fernandez-denies-rumours-manny-pacquiao-is-spent/" target="_blank"><i><font size="1">Read Full Story >>></font></i></a><p><a href="http://www.worldboxingnews.net/2018/05/25/news/pulev-v-whyte-epic-sports-tables-massive-purse-bid-to-beat-matchroom-sauerland-to-ibf-eliminator" target="_blank" class="headline2">Pulev v Whyte: Epic Sports tables MASSIVE PURSE BID, beats Matchroom, Sauerland to IBF eliminator</a><br><font class="headline2_source"><a href="http://www.worldboxingnews.net/" target="_blank">World Boxing News</a>, Fri, 25 May 2018</font><br><font class="headline2_blurb">International Boxing Federation Championships Chairman Lindsey Tucker has informed WBN of the result of the purse bid held for a heavyweight eliminator between Kubrat Pulev and Dillian Whyte. 
+
+Staged on Thursday, the promoters of both fighters, Matchroom and Sauerland were expected to be the only&nbsp;&nbsp;</font><a href="http://www.worldboxingnews.net/2018/05/25/news/pulev-v-whyte-epic-sports-tables-massive-purse-bid-to-beat-matchroom-sauerland-to-ibf-eliminator" target="_blank"><i><font size="1">Read Full Story >>></font></i></a><p><a href="http://philboxing.com/news/story-136695.html" target="" class="headline2">FRESNO: UNLIKELY VENUE OF THE HISTORIC ANCAJAS-SULTAN FIGHT </a><br><font class="headline2_source">By Dong Secuya, <a href="http://www.philboxing.com" target="">PhilBoxing.com</a>, Fri, 25 May 2018</font><br><font class="headline2_blurb"><img src="http://philboxing.com/news/pix/ancajas-sultan.final.pc.04.330w.jpg"><br>
+FRESNO, CA – The historic all-Filipino Jerwin Ancajas-Jonas Sultan world title fight will be held Saturday (Sunday in Manila) in an unlikely location in Fresno, an inland city in California's central valley where Fil&nbsp;&nbsp;</font><a href="http://philboxing.com/news/story-136695.html" target=""><i><font size="1">Read Full Story >>></font></i></a><p><a href="http://philboxing.com/news/story-136696.html" target="" class="headline2">Results from Candijay Bohol: Demecillo Knocks Out Moya To Capture PDF-118 Belt; Wenceslao Destroys Tinampay (PHOTOS)</a><br><font class="headline2_source">By Carlos Costa, <a href="http://www.philboxing.com" target="">PhilBoxing.com</a>, Fri, 25 May 2018</font><br><font class="headline2_blurb"><img src="http://philboxing.com/news/pix/c.demecillo.wins.180523.330w.jpg"><br>
+CANDIJAY, Bohol  --  With a viscous body attack in round two, Cebuano bantamweight Carlo Pepito Demecillo of the Big Yellow Boxing Stable ravaged fast-moving Margarito Moya to claim the vacant Philippine Boxing Federati&nbsp;&nbsp;</font><a href="http://philboxing.com/news/story-136696.html" target=""><i><font size="1">Read Full Story >>></font></i></a><p><a href="http://philboxing.com/news/story-136694.html" target="" class="headline2">Fans split on Manny’s fight</a><br><font class="headline2_source">By Joaquin Henson, <a href="http://www.philboxing.com" target="">PhilBoxing.com</a>, Fri, 25 May 2018</font><br><font class="headline2_blurb"><img src="http://philboxing.com/news/pix/pac-matthysse.kl.chair.01.330w.jpg"><br>
+Even as challenger Manny Pacquiao declared himself the underdog in his July 15 fight against WBA welterweight champion Lucas Matthysse of Argentina in Kuala Lumpur, oddsmakers insist the Filipino boxing icon is the fa&nbsp;&nbsp;</font><a href="http://philboxing.com/news/story-136694.html" target=""><i><font size="1">Read Full Story >>></font></i></a><p><a href="http://philboxing.com/news/story-136693.html" target="" class="headline2">Final Press Conference:  Ancajas and Sultan Ready to Make History (Photos)</a><br><font class="headline2_source"><a href="http://www.philboxing.com" target="">PhilBoxing.com</a>, Fri, 25 May 2018</font><br><font class="headline2_blurb"><img src="http://philboxing.com/news/pix/ancajas-sultan.final.pc.01.330w.jpg"><br>
+
+LIVE on ESPN+, Saturday, May 26 at 9:30 p.m. ET
+
+FRESNO, Calif. (May 24, 2018) — History is only two days away, as Jerwin "Pretty Boy’" Ancajas will defend the International Boxing Federation (IBF) junior bantamw&nbsp;&nbsp;</font><a href="http://philboxing.com/news/story-136693.html" target=""><i><font size="1">Read Full Story >>></font></i></a><p><a href="http://philboxing.com/news/story-136692.html" target="" class="headline2">ANCAJAS-SULTAN FEATS, FACTS AND FIGURES PART II</a><br><font class="headline2_source">By Maloney L. Samaco, <a href="http://www.philboxing.com" target="">PhilBoxing.com</a>, Fri, 25 May 2018</font><br><font class="headline2_blurb"><img src="http://philboxing.com/news/pix/ancajas-sultan.meet.n.greet.poster.180519.220w.jpg"><br>
+Jerwin Ancajas will defend his IBF world super flyweight title on Saturday in Fresno against fellow Filipino Jonas Sultan at the Save Mart Center in Fresno, California, in this city 355 kilometers away&nbsp;&nbsp;</font><a href="http://philboxing.com/news/story-136692.html" target=""><i><font size="1">Read Full Story >>></font></i></a><p><a href="http://philboxing.com/news/story-136691.html" target="" class="headline2">FIGHTNIGHT LIVE APPROACHING 1.5 MILLION VIEWS FOLLOWING SUCCESSFUL INAUGURAL CAMPAIGN</a><br><font class="headline2_source"><a href="http://www.philboxing.com" target="">PhilBoxing.com</a>, Fri, 25 May 2018</font><br><font class="headline2_blurb">Fan-friendly, interactive series looks to continue momentum in year two.
+
+Online: https://www.facebook.com/FaceFIGHTNIGHTLIVE/
+
+NEW YORK (May 24, 2018) - Recently celebrating its first anniversary and now approaching 1.5 million views for the series, Facebook FIGHTNIGHT LIVE next turns the corne&nbsp;&nbsp;</font><a href="http://philboxing.com/news/story-136691.html" target=""><i><font size="1">Read Full Story >>></font></i></a><p><a href="http://philboxing.com/news/story-136690.html" target="" class="headline2">Bellator Star Paul Daley Says He'll 'F**k Michael Page Up,' Hospitalize Him</a><br><font class="headline2_source"><a href="http://www.philboxing.com" target="">PhilBoxing.com</a>, Fri, 25 May 2018</font><br><font class="headline2_blurb"><img src="http://philboxing.com/news/pix/tjh.tmz.180524.300w.jpg"><br>
+TMZ SPORTS -- Bellator stars Paul Daley and Michael "Venom" Page don't see eye to eye (they freakin' hate each other) ... and are rumored to be fighting in the near future.
+
+Page -- 12 and 0 as a pro -- has a fight at Bellator&nbsp;&nbsp;</font><a href="http://philboxing.com/news/story-136690.html" target=""><i><font size="1">Read Full Story >>></font></i></a><p><a href="http://tv5.espn.com/boxing/story/_/id/23592438/jimmy-paypa-traded-punches-jonas-sultan-jerwin-ancajas" target="_blank" class="headline2">Jimmy Paypa has traded punches with Jonas Sultan and Jerwin Ancajas</a><br><font class="headline2_source">By Ryan Songalia, <a href="http://tv5.espn.com/" target="_blank">ESPN 5</a>, Fri, 25 May 2018</font><br><font class="headline2_blurb">FRESNO, Calif. -- Though Jerwin Ancajas and Jonas Sultan have no common opponents on their records, there's at least one fighter who has traded punches with both men.
+
+Jimmy Paypa, a tough underdog with a sneaky right hook, has trained for years alongside Sultan at the ALA Gym in Cebu City, Philip&nbsp;&nbsp;</font><a href="http://tv5.espn.com/boxing/story/_/id/23592438/jimmy-paypa-traded-punches-jonas-sultan-jerwin-ancajas" target="_blank"><i><font size="1">Read Full Story >>></font></i></a><p><a href="" target="_blank" class="headline2">Don’t count Sultan out – Aldeguer</a><br><font class="headline2_source">By Dennis Principe, <a href="http://www.mb.com.ph" target="_blank">The Manila Bulletin</a>, Fri, 25 May 2018</font><br><font class="headline2_blurb">If there was any indication, the last three fights of Jonas Sultan will prove his readiness to score an upset against Jerwin Ancajas this weekend.
+
+
+In an overseas telephone interview, ALA Boxing Promotions president Michael Aldeguer said the 26-year-old Sultan (14-3, 9 knockouts) went through th&nbsp;&nbsp;</font><a href="" target="_blank"><i><font size="1">Read Full Story >>></font></i></a><p><a href="http://www.boxing.com/president_trump_pardons_jack_johnson.html" target="_blank" class="headline2">President Trump Pardons Jack Johnson</a><br><font class="headline2_source">By Robert Ecksel, <a href="http://www.boxing.com" target="_blank">Boxing.com</a>, Fri, 25 May 2018</font><br><font class="headline2_blurb">It took no less a man than Donald Trump to bring this strange and somewhat bitter low-hanging fruit to fruition…
+
+For those who like their symbolism served cold, President Donald J. Trump granted former heavyweight champion of the world Jack Johnson a posthumous pardon today.
+
+In an Oval Office &nbsp;&nbsp;</font><a href="http://www.boxing.com/president_trump_pardons_jack_johnson.html" target="_blank"><i><font size="1">Read Full Story >>></font></i></a><p><a href="http://www.worldboxingnews.net/2018/05/24/news/sylvester-stallone-given-a-knuckle-sandwich-by-deontay-wilder-and-lennox-lewis-as-donald-trump-posthumously-pardons-jack-jackson" target="_blank" class="headline2">Sylvester Stallone given a 'knuckle sandwich' by Deontay Wilder and Lennox Lewis as Donald Trump posthumously pardons Jack Jackson</a><br><font class="headline2_source"><a href="http://www.worldboxingnews.net/" target="_blank">World Boxing News</a>, Fri, 25 May 2018</font><br><font class="headline2_blurb">United States President Donald Trump has granted a posthumous pardon to boxing’s first black heavyweight champion, the great Jack Johnson.
+
+105 years ago, Johnson was convicted in 1913 by an all-white jury for violating the Mann Act of transporting women across state lines in order to perform 'imm&nbsp;&nbsp;</font><a href="http://www.worldboxingnews.net/2018/05/24/news/sylvester-stallone-given-a-knuckle-sandwich-by-deontay-wilder-and-lennox-lewis-as-donald-trump-posthumously-pardons-jack-jackson" target="_blank"><i><font size="1">Read Full Story >>></font></i></a><p><a href="http://philboxing.com/news/story-136685.html" target="" class="headline2">Ancajas warned to expect tough fight</a><br><font class="headline2_source">By Joaquin Henson, <a href="http://www.philboxing.com" target="">PhilBoxing.com</a>, Fri, 25 May 2018</font><br><font class="headline2_blurb"><img src="http://philboxing.com/news/pix/ancajas.180523.330w.jpg"><br>
+FRESNO.   It won’t be an easy defense for IBF superflyweight champion Jerwin Ancajas when he takes on mandatory challenger Jonas Sultan in the first-ever world title fight between two Filipinos outside the Philippines at the 16,&nbsp;&nbsp;</font><a href="http://philboxing.com/news/story-136685.html" target=""><i><font size="1">Read Full Story >>></font></i></a><p><a href="http://philboxing.com/news/story-136684.html" target="" class="headline2">Two Filipino boxers to make history in Fresno for IBF Junior Bantamweight title</a><br><font class="headline2_source">By Leo Reyes, <a href="http://www.philboxing.com" target="">PhilBoxing.com</a>, Fri, 25 May 2018</font><br><font class="headline2_blurb"><img src="http://philboxing.com/news/pix/ancajas-sultan.fil.community.la.180519.01.330w.jpg"><br>
+Two Filipino boxers are all set to make history at the Save Mart Center in Fresno, California, USA on Saturday (Sunday in Manila) to dispute the IBF Junior Bantamweight title.
+
+Reigning IBF Junior Ba&nbsp;&nbsp;</font><a href="http://philboxing.com/news/story-136684.html" target=""><i><font size="1">Read Full Story >>></font></i></a><p><a href="http://philboxing.com/news/story-136683.html" target="" class="headline2">B. RILEY FBR, INC. AND SUGAR RAY LEONARD FOUNDATION CELEBRATED THE 9TH ANNUAL 'BIG FIGHTERS, BIG CAUSE' CHARITY BOXING NIGHT</a><br><font class="headline2_source"><a href="http://www.philboxing.com" target="">PhilBoxing.com</a>, Fri, 25 May 2018</font><br><font class="headline2_blurb"><img src="http://philboxing.com/news/pix/leonard.n.b.riley.330w.jpg"><br>
+
+STAR-STUDDED EVENT FEATURED LIVE FIGHTS PRESENTED BY GOLDEN BOY PROMOTIONS
+ 
+JOUSCE 'TITO' GONZALEZ DEFEATS JUAN SANDOVAL IN MAIN EVENT
+
+Santa Monica, CA (May 23, 2018) - The B. Riley FBR, Inc. 9th Annual "Big Fighters,&nbsp;&nbsp;</font><a href="http://philboxing.com/news/story-136683.html" target=""><i><font size="1">Read Full Story >>></font></i></a><p><a href="http://philboxing.com/news/story-136682.html" target="" class="headline2">Gomez, three others share PNG Rapid chess lead</a><br><font class="headline2_source">By Marlon Bernardino, <a href="http://www.philboxing.com" target="">PhilBoxing.com</a>, Fri, 25 May 2018</font><br><font class="headline2_blurb">(Open Division)
+5.0 points---IM Haridas Pascua, IM Jan Emmanuel Garcia, GM John Paul Gomez, GM Darwin Laylo
+4.5 points---GM Jayson Gonzales,  GM Rogelio "Joey" Antonio Jr., NM Elmer Sumngat, NM Jerad Docena, IM Paulo Bersamina, NM Joey Albert Florendo
+
+(Women's Division)
+5.5 points---WGM Janell&nbsp;&nbsp;</font><a href="http://philboxing.com/news/story-136682.html" target=""><i><font size="1">Read Full Story >>></font></i></a><p><a href="http://www.espn.com.au/boxing/story/_/id/23592238/top-rank-espn+-jerwin-ancajas-khalid-yafai-focused-title-defenses-not-other" target="_blank" class="headline2">Jerwin Ancajas, Khalid Yafai focused on title defenses, not each other</a><br><font class="headline2_source">By Dan Rafael, <a href="http://sports.espn.go.com/" target="_blank">ESPN.com</a>, Fri, 25 May 2018</font><br><font class="headline2_blurb">Junior bantamweight world titleholders Jerwin Ancajas and Kal Yafai are being featured in defenses on the same card on Saturday night as a prelude to a possible unification fight later in the year -- but don't tell them about that. They are focused on the business at hand, not each other.
+
+Ancajas&nbsp;&nbsp;</font><a href="http://www.espn.com.au/boxing/story/_/id/23592238/top-rank-espn+-jerwin-ancajas-khalid-yafai-focused-title-defenses-not-other" target="_blank"><i><font size="1">Read Full Story >>></font></i></a><p><a href="http://news.abs-cbn.com/sports/05/24/18/boxing-despite-contrasting-roles-ancajas-sultan-share-common-sense-of-pride" target="_blank" class="headline2">Despite contrasting roles, Ancajas, Sultan share common sense of pride</a><br><font class="headline2_source">By Roy Luarca, <a href="http://www.abs-cbnnews.com/" target="_blank">ABS-CBN News</a>, Fri, 25 May 2018</font><br><font class="headline2_blurb">FRESNO, Calif.—Pressed for an answer by the open workout announcer as he exited the ring, Jerwin Ancajas finally uttered the expected answer: I will bring home my belt.
+
+The shy, humble champion was referring to the International Boxing Federation super flyweight crown, which he intends to defend &nbsp;&nbsp;</font><a href="http://news.abs-cbn.com/sports/05/24/18/boxing-despite-contrasting-roles-ancajas-sultan-share-common-sense-of-pride" target="_blank"><i><font size="1">Read Full Story >>></font></i></a><p><div align="left"><a href="news/" class="headline2_blurb"><i>Read More News...</i></a><br><br></div></td><td width="4"></td><td width="1" bgcolor="#8C8C8C"></td><td width="4"></td><td width="40%" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td><div align="center"><b>FORUM ACTIVE TOPICS</b></div><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=5&t=288248' target='_blank'><font size="2"><b>Lomachenko vacates 130 lb title</b></a> by <b>phillyboxing</b></font><br><font size="2">Last poster: <b>phillyboxing</b>, 05/25/18, 6:56 pm (31 views / 0 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=5&t=288247' target='_blank'><font size="2"><b>Jack Johnson Pardon: When boxing and politics collide, be su</b></a> by <b>phillyboxing</b></font><br><font size="2">Last poster: <b>phillyboxing</b>, 05/25/18, 6:04 pm (21 views / 0 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=5&t=288245' target='_blank'><font size="2"><b>Inoue destroys McDonnell to win Bantamweight crown</b></a> by <b>phillyboxing</b></font><br><font size="2">Last poster: <b>JoeyInCali</b>, 05/25/18, 4:25 pm (234 views / 5 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=5&t=288246' target='_blank'><font size="2"><b>Pacquiao should avoid Inoue</b></a> by <b>Romy Nabas</b></font><br><font size="2">Last poster: <b>Romy Nabas</b>, 05/25/18, 2:07 pm (66 views / 0 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=5&t=288242' target='_blank'><font size="2"><b>FOLLOW MCDONNELL – INOUE LIVE!</b></a> by <b>phillyboxing</b></font><br><font size="2">Last poster: <b>phillyboxing</b>, 05/25/18, 12:27 pm (71 views / 1 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=5&t=288244' target='_blank'><font size="2"><b>Shiro stops Lopez in 2</b></a> by <b>phillyboxing</b></font><br><font size="2">Last poster: <b>phillyboxing</b>, 05/25/18, 12:26 pm (54 views / 0 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=5&t=288243' target='_blank'><font size="2"><b>Follow Shiro - Lopez Live</b></a> by <b>phillyboxing</b></font><br><font size="2">Last poster: <b>phillyboxing</b>, 05/25/18, 11:19 am (43 views / 0 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=5&t=288241' target='_blank'><font size="2"><b>Final Press Conference: Ancajas and Sultan Ready to Make His</b></a> by <b>phillyboxing</b></font><br><font size="2">Last poster: <b>gritsteel2</b>, 05/25/18, 10:11 am (115 views / 1 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=94&t=288226' target='_blank'><font size="2"><b>What If Manny Win?!</b></a> by <b>Indomitable_Soldier</b></font><br><font size="2">Last poster: <b>Navy Blue</b>, 05/25/18, 6:36 am (684 views / 6 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=94&t=288040' target='_blank'><font size="2"><b>80% Pacman can not defeat Mathysse</b></a> by <b>jjcross</b></font><br><font size="2">Last poster: <b>Navy Blue</b>, 05/25/18, 5:22 am (1412 views / 15 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=5&t=288240' target='_blank'><font size="2"><b>ACTION-PACKED EIGHT-BOUT CARD ANNOUNCED FOR ‘HOLLYWOOD FIGHT</b></a> by <b>phillyboxing</b></font><br><font size="2">Last poster: <b>phillyboxing</b>, 05/25/18, 3:43 am (47 views / 0 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=5&t=288239' target='_blank'><font size="2"><b>FIGHTNIGHT LIVE APPROACHING 1.5 MILLION VIEWS FOLLOWING SUCC</b></a> by <b>phillyboxing</b></font><br><font size="2">Last poster: <b>phillyboxing</b>, 05/25/18, 3:37 am (57 views / 0 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=5&t=288238' target='_blank'><font size="2"><b>MCDONNELL: I’M READY FOR ‘MONSTER’ CHALLENGE</b></a> by <b>phillyboxing</b></font><br><font size="2">Last poster: <b>phillyboxing</b>, 05/24/18, 3:33 pm (110 views / 0 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=5&t=288205' target='_blank'><font size="2"><b>Ancajas vS Sultan Fearless Forecast!!!!!!!!!!!!!!!!</b></a> by <b>alucard13nth</b></font><br><font size="2">Last poster: <b>FunkyDog</b>, 05/24/18, 6:58 am (1436 views / 15 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=5&t=288237' target='_blank'><font size="2"><b>Broner turns down $6.75 Million deal from Hearn on Twitter</b></a> by <b>phillyboxing</b></font><br><font size="2">Last poster: <b>phillyboxing</b>, 05/24/18, 4:00 am (127 views / 0 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=5&t=288236' target='_blank'><font size="2"><b>Media Workout Notes &amp; Quotes: Ancajas, Sultan Prepare for Fi</b></a> by <b>phillyboxing</b></font><br><font size="2">Last poster: <b>phillyboxing</b>, 05/24/18, 3:49 am (76 views / 0 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=5&t=288235' target='_blank'><font size="2"><b>Marathon Boxing for the World 5K Walk on Sunday, July 22 in</b></a> by <b>phillyboxing</b></font><br><font size="2">Last poster: <b>phillyboxing</b>, 05/23/18, 11:57 pm (76 views / 0 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=5&t=288233' target='_blank'><font size="2"><b>Premier Boxing Champions on FS1 &amp; FOX Deportes Presents Thre</b></a> by <b>phillyboxing</b></font><br><font size="2">Last poster: <b>phillyboxing</b>, 05/23/18, 7:54 pm (102 views / 0 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=1&t=288231' target='_blank'><font size="2"><b>LUCAS ‘LA MAQUINA’ MATTHYSSE DISCUSSES TRAINING CAMP AHEAD O</b></a> by <b>phillyboxing</b></font><br><font size="2">Last poster: <b>phillyboxing</b>, 05/23/18, 7:47 pm (338 views / 0 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=5&t=288227' target='_blank'><font size="2"><b>Top Rank and Sampson Boxing in dispute over David Benavidez</b></a> by <b>phillyboxing</b></font><br><font size="2">Last poster: <b>phillyboxing</b>, 05/23/18, 7:01 pm (82 views / 0 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=5&t=288223' target='_blank'><font size="2"><b>FRIDAY: Naoya “Monster” Inoue and Ken Shiro Title Defenses t</b></a> by <b>phillyboxing</b></font><br><font size="2">Last poster: <b>tambolero13</b>, 05/23/18, 12:03 pm (268 views / 2 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=94&t=162497' target='_blank'><font size="2"><b>* PROJECT: Wesley So World Chess Championship Challenger</b></a> by <b>joeyj</b></font><br><font size="2">Last poster: <b>whinz</b>, 05/23/18, 7:23 am (5532214 views / 25079 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=5&t=288224' target='_blank'><font size="2"><b>Leo Santa Cruz Los Angeles Workout Quotes</b></a> by <b>phillyboxing</b></font><br><font size="2">Last poster: <b>phillyboxing</b>, 05/23/18, 2:21 am (107 views / 0 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=5&t=288222' target='_blank'><font size="2"><b>DIBELLA ENTERTAINMENT SIGNS TOP FEMALE PROSPECT TIARA BROWN</b></a> by <b>phillyboxing</b></font><br><font size="2">Last poster: <b>phillyboxing</b>, 05/23/18, 12:57 am (73 views / 0 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=5&t=288221' target='_blank'><font size="2"><b>Jose Pedraza and Shakur Stevenson Look to Shine on Crawford</b></a> by <b>phillyboxing</b></font><br><font size="2">Last poster: <b>phillyboxing</b>, 05/23/18, 12:53 am (69 views / 0 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=5&t=288220' target='_blank'><font size="2"><b>ANTHONY PRESCOTT, ISAIAH WISE REMATCH IS SEMIFINAL OF XCITE</b></a> by <b>phillyboxing</b></font><br><font size="2">Last poster: <b>phillyboxing</b>, 05/23/18, 12:48 am (57 views / 0 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=5&t=288219' target='_blank'><font size="2"><b>SUPER MIDDLEWEIGHT WORLD CHAMPION GILBERTO RAMIREZ TO FACE K</b></a> by <b>phillyboxing</b></font><br><font size="2">Last poster: <b>phillyboxing</b>, 05/23/18, 12:42 am (67 views / 0 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=5&t=288218' target='_blank'><font size="2"><b>“The Bosnian Prince” Armin Mrkanovic defeats Nicholas Lavin</b></a> by <b>phillyboxing</b></font><br><font size="2">Last poster: <b>phillyboxing</b>, 05/23/18, 12:35 am (67 views / 0 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=5&t=288217' target='_blank'><font size="2"><b>McDonnell – Inoue bout to be streamed on ESPN+</b></a> by <b>phillyboxing</b></font><br><font size="2">Last poster: <b>phillyboxing</b>, 05/23/18, 12:31 am (74 views / 0 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=5&t=288216' target='_blank'><font size="2"><b>Nico Hernandez captures IBA flyweight World title in 5th pro</b></a> by <b>phillyboxing</b></font><br><font size="2">Last poster: <b>phillyboxing</b>, 05/22/18, 11:19 pm (94 views / 0 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=5&t=288215' target='_blank'><font size="2"><b>Undefeated Welterweight Gerome Quigley battles Raymond Serra</b></a> by <b>phillyboxing</b></font><br><font size="2">Last poster: <b>phillyboxing</b>, 05/22/18, 11:08 pm (68 views / 0 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=5&t=288214' target='_blank'><font size="2"><b>Results from Charlotte, North Carolina</b></a> by <b>phillyboxing</b></font><br><font size="2">Last poster: <b>phillyboxing</b>, 05/22/18, 10:38 pm (68 views / 0 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=5&t=288213' target='_blank'><font size="2"><b>Steele spoils Upsher’s comeback bid</b></a> by <b>phillyboxing</b></font><br><font size="2">Last poster: <b>phillyboxing</b>, 05/22/18, 10:32 pm (65 views / 0 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=1&t=288190' target='_blank'><font size="2"><b>PALPAK-QUIAO: PAC vs Matthyse May not happen!</b></a> by <b>Subversive</b></font><br><font size="2">Last poster: <b>lagako10</b>, 05/22/18, 7:33 pm (2539 views / 20 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=1&t=288193' target='_blank'><font size="2"><b>What's preventing Manny from fighting in the Philippines?</b></a> by <b>theDon</b></font><br><font size="2">Last poster: <b>JoeyInCali</b>, 05/21/18, 7:45 pm (717 views / 11 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=5&t=288211' target='_blank'><font size="2"><b>Who I was cheering for, and why?</b></a> by <b>phillyboxing</b></font><br><font size="2">Last poster: <b>phillyboxing</b>, 05/21/18, 4:33 pm (140 views / 0 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=1&t=288158' target='_blank'><font size="2"><b>Even Floyd would lose to Lomachenko at 135 lbs</b></a> by <b>CPK-MB</b></font><br><font size="2">Last poster: <b>theDon</b>, 05/21/18, 1:21 pm (704 views / 8 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=5&t=288210' target='_blank'><font size="2"><b>FURY FACES SEFERI IN JUNE 9 COMEBACK FIGHT</b></a> by <b>phillyboxing</b></font><br><font size="2">Last poster: <b>phillyboxing</b>, 05/20/18, 11:30 pm (110 views / 0 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=5&t=288209' target='_blank'><font size="2"><b>Super Middleweight Marquis Moore remains undefeated with una</b></a> by <b>phillyboxing</b></font><br><font size="2">Last poster: <b>phillyboxing</b>, 05/20/18, 11:17 pm (87 views / 0 replies)</font><br><li><a href='http://forum.philboxing.com/viewtopic.php?f=5&t=288208' target='_blank'><font size="2"><b>Adonis Stevenson vs Badou Jack Full Fight Replay</b></a> by <b>armainev</b></font><br><font size="2">Last poster: <b>armainev</b>, 05/20/18, 9:36 am (315 views / 0 replies)</font><br></td></tr></table><br><br><script type="text/javascript"><!--
+google_ad_client = "ca-pub-6215672798844835";
+/* philboxing - 300 x 600 */
+google_ad_slot = "6049925558";
+google_ad_width = 300;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></td></td></tr></table></td></tr></table><table width="100%" height="1" border="0" cellspacing="0" cellpadding="0" bgcolor="#666666">   <tr>      <td valign="top"></td>   </tr></table><table width="100%" border="0" cellspacing="5" cellpadding="0">
+  <tr>
+    <td width="50%" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr bgcolor="#30246F"> 
+          <td><font size="2" color="#FFFFFF"><b>Philboxing Fight Galleries</b></font></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td valign="top"><br>
+<div align="left">
+
+    
+</div>      
+
+
+<font class="newsblurb"><b><a href="http://gallery.philboxing.com">Philboxing's online photo albums</a></font></b><br><br>
+
+            <font class="newsbody">
+Take a glimpse on philboxing.com newly updated fight gallery and browse to our several albums and be photographically informed to some of your favorite local boxer's fights and press exposures.</font> </td>
+        </tr>
+      </table>
+    </td>
+    <td width="50%" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr bgcolor="#30246F"> 
+          <td><font size="2" color="#FFFFFF"><b>OTHER SPECIALS AND FEATURES</b></font></td>
+        </tr>
+
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td valign="top"><br><a href="http://philboxing.com/specials/thrilla_in_manila/"><img src="specials/thrilla_in_manila/thrilla.thumb.jpg" align="left" vspace="4" hspace="4" border="0"></a>
+          <font class="newsblurb"><b><a href="http://philboxing.com/specials/thrilla_in_manila/">Web Special: The 30th Anniversary of "The Thrilla in Manila"</a></font></b><br><font class="newsbody">Special news coverage of the Ali-Frazier fight in Manila 30 years ago.</font>
+          </td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td valign="top"><br><a href="http://philboxing.com/specials/origins_of_boxing_in_the_phils/"><img src="specials/origins_of_boxing_in_the_phils/origins.thumb.72w.jpg" align="left" vspace="4" hspace="4" border="0"></a>
+          <font class="newsblurb"><b><a href="http://philboxing.com/specials/origins_of_boxing_in_the_phils/">Origins of Boxing in the Philippines</a></font></b><br><font class="newsbody">Joseph R. Svinth's in-depth and scholastic historical piece on the origins of boxing in the Philippines.</font>
+          </td>
+        </tr>
+      </table>	  
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td valign="top"><br><a href="http://philboxing.com/news/story-3789.html"><img src="images/pac.mouthguard.thumb.jpg" align="left" vspace="4" hspace="4" border="0"></a>
+          <font class="newsblurb"><b><a href="http://philboxing.com/news/story-3789.html">The Importance of a Professional Grade Mouth Guard</a></font></b><br><font class="newsbody">Dr. Ed de la Vega expounds the importance of a proper mouth guard for athletes.</font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr bgcolor="#30246F">
+    <td><font size="2" color="#FFFFFF"><b>SEARCH NEWS</b></font></td>
+  </tr>
+</table>
+<form method="post" action="http://philboxing.com/news/search/search.php?action=list">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td>
+        <div align="center"><font size="2">Keyword (Ex. pacquiao)</font></div>
+      </td>
+      <td>
+        <div align="center"><font size="2">Author (Ex. Henson)</font></div>
+      </td>
+      <td>
+        <div align="center"><font size="2">Source (Ex. philippine star)</font></div>
+      </td>
+      <td>
+        <div align="center"></div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div align="center">
+          <input type="text" name="q" size="16">
+        </div>
+      </td>
+      <td>
+        <div align="center">
+          <input type="text" name="author" size="16">
+        </div>
+      </td>
+      <td>
+        <div align="center">
+          <input type="text" name="source" size="16">
+        </div>
+      </td>
+      <td>
+        <div align="center">
+          <input type="submit" name="Submit" value="GO">
+        </div>
+      </td>
+    </tr>
+  </table>
+</form><br><!-- right column -->
+
+    </td>
+    <td width="6"></td>
+    <td width="1" bgcolor="#AB2807"></td>
+    <td width="6" bgcolor="#EEEEEE">&nbsp;</td>
+    <td width="160" bgcolor="#EEEEEE">
+
+    <table width="100%" height="50%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td valign="top">
+        <div align="center">
+		
+        <a href="http://pinoygreats.com" target="_blank"><img src="http://philboxing.com/images/this.way.to.pacland.150w.jpg" border="0" vspace="3"></a><br><br>
+		
+		<a href="http://philboxing.com/specials/nba/" target="_blank"><img src="http://philboxing.com/images/nba.logo.150x111.jpg" border="0" vspace="0"><br>
+		<font size="1">
+		NBA 2016-2017 SEASON<br>
+		Special Coverage 
+		</font>
+		</a>	
+		<br><br>
+				</div>
+
+
+        
+<div align="center">
+
+<br><br>
+
+
+        <script type="text/javascript"><!--
+google_ad_client = "pub-6215672798844835";
+google_ad_width = 160;
+google_ad_height = 600;
+google_ad_format = "160x600_as";
+google_ad_type = "text_image";
+google_ad_channel ="2262268828";
+google_color_border = "EEEEEE";
+google_color_bg = "EEEEEE";
+google_color_link = "000000";
+google_color_url = "000000";
+google_color_text = "000000";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script><br>
+
+
+
+        </td>
+        </tr>
+        </table>
+
+    <table width="100%" height="50%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td valign="bottom">
+
+  
+
+
+<div align="center">
+<a href="http://philboxing.com/news/rss.xml"><img src="http://philboxing.com/images/rss.png" border="0"></a> <a href="http://philboxing.com/news/rss.xml"><img src="http://philboxing.com/images/xml.gif" border="0"></a>
+</div>
+<br>
+
+        </td>
+        </tr>
+        </table>
+
+    </td>
+  </tr>
+</table>
+
+<!-- end right column -->
+
+<!-- footer -->
+
+<table width="100%" height="1" border="0" cellspacing="0" cellpadding="0" bgcolor="#333333">
+  <tr>
+    <td></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#CCCCCC">
+  <tr>
+    <td widht="10">&nbsp;</td>
+    <td width="50%" valign="top">
+           <br>
+           <span class="copyright">
+           PhilBoxing.com has been created to support every aspiring <br>
+           Filipino boxer and the Philippine boxing scene in general.<br>
+           Please send comments to <a href="mailto:feedback@philboxing.com">feedback@philboxing.com</a><br>
+           </span>
+           <br>
+        </td>
+    <td width="50%" valign"top">
+           <br>
+           <div align="right">
+           <span class="copyright">
+           <a href="private.policy.php">PRIVATE POLICY</a> | <a href="disclaimer.php">LEGAL DISCLAIMER</a> <br>
+           developed and maintained by <a href="http://cebu-online.com/designs/" target="_blank">dong secuya</a><br>
+           &copy; 2018 philboxing.com.<br>
+           </span>
+           </div>
+           <br>
+        </td>
+    <td widht="10">&nbsp;</td>
+  </tr>
+</table>
+<table width="100%" height="2" border="0" cellspacing="0" cellpadding="0" bgcolor="#333333">
+  <tr>
+    <td></td>
+  </tr>
+</table>
+</body>
+</html>
