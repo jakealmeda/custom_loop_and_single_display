@@ -66,12 +66,25 @@ class SWPCustomVideosLoop {
 
 				    // NOTE: browser caching retains the same image even after replacement
 				    //$ytthumb_w_ver = plugins_url( "images/".$swp_target_dir."/0/".$videoclipid.".jpg", __FILE__ ); //."?".date( 'YmdHis', filemtime( plugin_dir_path( __FILE__ )."../images/youtubethumbs/0/".$videoclipid.".jpg" ) );
-				    $output .= '<div class="module-video" id="'.$videoclipid.'"><div class="module-wrap" id="'.$videoclipid.'-wrap">
+				    /*$output .= '<div class="module-video" id="'.$videoclipid.'"><div class="module-wrap" id="'.$videoclipid.'-wrap">
 				    				<div class="item-play" id="video_play_'.$videoclipid.'"></div>
 				                    <div class="item-pic '.$swp_target_dir.'" id="video_image_'.$videoclipid.'">
 				                        <img src="'.plugins_url( "images/".$swp_target_dir."/0/".$videoclipid.".jpg", __FILE__ ).'" class="thumbnail" id="thumbnail_'.$videoclipid.'" />
 				                    </div>
-				                </div></div>';
+				                </div></div>';*/
+				    /*
+						vs Gonzales: https://www.youtube.com/embed/zE-4r6D0NL4
+						vs Jamie Conlan: https://www.youtube.com/embed/P0vZ7d1q9fw
+
+				    */
+				    $output .= '<div class="module-video"><div class="module-wrap">
+				    				'.do_shortcode( "[swp_lightbox src='".$swp_video_link."']
+					    				<div class='item-play'</div>
+					    				<div class='item-pic'>
+					                        <img src='".plugins_url( 'images/'.$swp_target_dir.'/0/'.$videoclipid.'.jpg', __FILE__ )."' class='thumbnail' />
+					                    </div>
+					                    [/swp_lightbox]" ).'
+				    			</div></div>';
 
 				}
 
