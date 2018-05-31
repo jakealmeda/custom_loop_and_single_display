@@ -23,7 +23,11 @@ class SWPGenesisCustomPostLoop extends SWPWPQueryPosts {
 	// MAIN FUNCTION
 	public function swp_my_custom_loop() {
 
-		$the_query = $this->swp_query_archive_posts( 'post', get_option('posts_per_page'), NULL, NULL );
+		// First pagination
+		$paged1 = isset( $_GET['paged1'] ) ? (int) $_GET['paged1'] : 1;
+
+		// 			 $this->swp_query_archive_posts( $post_type, $num_of_posts, $paged, $orderby, $order )
+		$the_query = $this->swp_query_archive_posts( 'post', get_option('posts_per_page'), $paged1, NULL, NULL );
 		
 		// The Loop
 		if ( $the_query->have_posts() ) {
@@ -173,7 +177,7 @@ class SWPGenesisCustomPostLoop extends SWPWPQueryPosts {
 				<?php // VIDEOS CONTAINER - OPEN ?>
 				<section class="area-videos"><div class="area-wrap">
 
-					<?php echo do_shortcode( '[swp_video_loop_display post_type="matches" orderby="post_date" order="desc"][/swp_video_loop_display]' ); ?>
+					<?php echo do_shortcode( '[swp_video_loop_display post_type="matches" posts_per_page="3" orderby="post_date" order="desc"][/swp_video_loop_display]' ); ?>
 
 				<?php // VIDEOS POSTS CONTAINER - CLOSE ?>
 				</div></section>

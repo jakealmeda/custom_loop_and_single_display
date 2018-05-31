@@ -31,7 +31,9 @@ class SWPCustomVideosLoop {
 		global $wp_query;
 
 		$swp_new_query = new SWPWPQueryPosts();
-		$wp_query = $swp_new_query->swp_query_archive_posts( $post_type, $posts_per_page_count, $orderby, $order );
+		$paged2 = isset( $_GET['paged2'] ) ? (int) $_GET['paged2'] : 1;
+		// 			$swp_new_query->swp_query_archive_posts( $post_type, $num_of_posts, $paged, $orderby, $order )
+		$wp_query = $swp_new_query->swp_query_archive_posts( $post_type, $posts_per_page_count, $paged2, $orderby, $order );
 
 		if ( have_posts() ) : 
 
@@ -90,16 +92,23 @@ class SWPCustomVideosLoop {
 
 			endwhile;
 
+			/* Pagination with Alternative Prev/Next Text
+			 * -------------- */
+			// do_action( 'genesis_after_endwhile' );
+			echo get_the_posts_pagination( array(
+			    'mid_size' => 2,
+			    'prev_text' => __( '<<', 'textdomain' ),
+			    'next_text' => __( '>>', 'textdomain' ),
+			) );
+
 			// DIV CONTAINER
 			return $output;
-
-			// CONTAINS PAGINATION
-			do_action( 'genesis_after_endwhile' );
 
 		endif;
 
 		// Restore original Post Data
-		wp_reset_query();
+		//wp_reset_query();
+		wp_reset_postdata();
 
 	}
 
