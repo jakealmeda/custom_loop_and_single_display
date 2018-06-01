@@ -24,10 +24,10 @@ class SWPGenesisCustomPostLoop extends SWPWPQueryPosts {
 	public function swp_my_custom_loop() {
 
 		// First pagination
-		$paged1 = isset( $_GET['paged1'] ) ? (int) $_GET['paged1'] : 1;
+		//$paged1 = isset( $_GET['paged1'] ) ? (int) $_GET['paged1'] : 1;
 
 		// 			 $this->swp_query_archive_posts( $post_type, $num_of_posts, $paged, $orderby, $order )
-		$the_query = $this->swp_query_archive_posts( 'post', get_option('posts_per_page'), $paged1, NULL, NULL );
+		$the_query = $this->swp_query_archive_posts( 'post', get_option('posts_per_page'), NULL, NULL, NULL );
 		
 		// The Loop
 		if ( $the_query->have_posts() ) {
