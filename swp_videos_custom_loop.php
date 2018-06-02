@@ -46,49 +46,7 @@ class SWPCustomVideosLoop {
 				// Get Video Clip ID
 				$videoclipid = $this->swp_get_video_clip_id( $swp_video_link );
 
-				// remove www. and .com
-				$parse = str_ireplace( 'www.', '', str_ireplace( '.com', '', parse_url( $swp_video_link ) ) );
-				if( $parse[ 'host' ] == 'dailymotion' ) {
-
-					// set variables
-					$swp_target_dir = 'dailymotionthumbs';
-					$swp_source_dir = 'https://www.dailymotion.com/thumbnail/video/'.$videoclipid;
-					//https://www.dailymotion.com/thumbnail/video/{video_id}
-
-				} else {
-
-					// set variables
-					$swp_target_dir = 'youtubethumbs';
-					$swp_source_dir = 'https://img.youtube.com/vi/'.$videoclipid.'/0.jpg';
-
-				}
-
-				// download thumbnail
-    			if( $this->spk_download_video_thumb( $videoclipid, $swp_target_dir, $swp_source_dir, '0/' ) ) {
-
-				    // NOTE: browser caching retains the same image even after replacement
-				    //$ytthumb_w_ver = plugins_url( "images/".$swp_target_dir."/0/".$videoclipid.".jpg", __FILE__ ); //."?".date( 'YmdHis', filemtime( plugin_dir_path( __FILE__ )."../images/youtubethumbs/0/".$videoclipid.".jpg" ) );
-				    /*$output .= '<div class="module-video" id="'.$videoclipid.'"><div class="module-wrap" id="'.$videoclipid.'-wrap">
-				    				<div class="item-play" id="video_play_'.$videoclipid.'"></div>
-				                    <div class="item-pic '.$swp_target_dir.'" id="video_image_'.$videoclipid.'">
-				                        <img src="'.plugins_url( "images/".$swp_target_dir."/0/".$videoclipid.".jpg", __FILE__ ).'" class="thumbnail" id="thumbnail_'.$videoclipid.'" />
-				                    </div>
-				                </div></div>';*/
-				    /*
-						vs Gonzales: https://www.youtube.com/embed/zE-4r6D0NL4
-						vs Jamie Conlan: https://www.youtube.com/embed/P0vZ7d1q9fw
-
-				    */
-				    $output .= '<div class="module-video"><div class="module-wrap">
-				    				'.do_shortcode( "[swp_lightbox src='".$swp_video_link."']
-					    				<div class='item-play'</div>
-					    				<div class='item-pic'>
-					                        <img src='".plugins_url( 'images/'.$swp_target_dir.'/0/'.$videoclipid.'.jpg', __FILE__ )."' class='thumbnail' />
-					                    </div>
-					                    [/swp_lightbox]" ).'
-				    			</div></div>';
-
-				}
+				$output .= $this->swp_display_the_video( $swp_video_link, $videoclipid );
 
 			endwhile;
 
@@ -109,6 +67,55 @@ class SWPCustomVideosLoop {
 		// Restore original Post Data
 		//wp_reset_query();
 		wp_reset_postdata();
+
+	}
+
+	// Display each videos
+	public function swp_display_the_video( $swp_video_link, $videoclipid ) {
+
+		// remove www. and .com
+		$parse = str_ireplace( 'www.', '', str_ireplace( '.com', '', parse_url( $swp_video_link ) ) );
+		if( $parse[ 'host' ] == 'dailymotion' ) {
+
+			// set variables
+			$swp_target_dir = 'dailymotionthumbs';
+			$swp_source_dir = 'https://www.dailymotion.com/thumbnail/video/'.$videoclipid;
+			//https://www.dailymotion.com/thumbnail/video/{video_id}
+
+		} else {
+
+			// set variables
+			$swp_target_dir = 'youtubethumbs';
+			$swp_source_dir = 'https://img.youtube.com/vi/'.$videoclipid.'/0.jpg';
+
+		}
+
+		// download thumbnail
+		if( $this->spk_download_video_thumb( $videoclipid, $swp_target_dir, $swp_source_dir, '0/' ) ) {
+
+		    // NOTE: browser caching retains the same image even after replacement
+		    //$ytthumb_w_ver = plugins_url( "images/".$swp_target_dir."/0/".$videoclipid.".jpg", __FILE__ ); //."?".date( 'YmdHis', filemtime( plugin_dir_path( __FILE__ )."../images/youtubethumbs/0/".$videoclipid.".jpg" ) );
+		    /*$output .= '<div class="module-video" id="'.$videoclipid.'"><div class="module-wrap" id="'.$videoclipid.'-wrap">
+		    				<div class="item-play" id="video_play_'.$videoclipid.'"></div>
+		                    <div class="item-pic '.$swp_target_dir.'" id="video_image_'.$videoclipid.'">
+		                        <img src="'.plugins_url( "images/".$swp_target_dir."/0/".$videoclipid.".jpg", __FILE__ ).'" class="thumbnail" id="thumbnail_'.$videoclipid.'" />
+		                    </div>
+		                </div></div>';*/
+		    /*
+				vs Gonzales: https://www.youtube.com/embed/zE-4r6D0NL4
+				vs Jamie Conlan: https://www.youtube.com/embed/P0vZ7d1q9fw
+
+		    */
+		    return '<div class="module-video"><div class="module-wrap">
+		    				'.do_shortcode( "[swp_lightbox src='".$swp_video_link."']
+			    				<div class='item-play'</div>
+			    				<div class='item-pic'>
+			                        <img src='".plugins_url( 'images/'.$swp_target_dir.'/0/'.$videoclipid.'.jpg', __FILE__ )."' class='thumbnail' />
+			                    </div>
+			                    [/swp_lightbox]" ).'
+		    			</div></div>';
+
+		}
 
 	}
 
@@ -228,3 +235,15 @@ class SWPCustomVideosLoop {
 }
 
 $swpcustomvideosloop = new SWPCustomVideosLoop();
+
+
+/* ------------------------------------------------------------
+ * Shortcode for internal posts - this will download thumbnails
+ * first so the video can be loaded through lightbox
+ * --------------------------------------------------------- */
+/*class swpinternalpostvideos() {
+
+	// main function
+	public function swp_internal_post_videos_func( $params = array() ) {
+
+}*/
