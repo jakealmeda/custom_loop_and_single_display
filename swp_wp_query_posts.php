@@ -21,6 +21,13 @@ class SWPWPQueryPosts {
 			$paged = get_query_var( 'paged' );
 		}
 
+		// check posts per page value
+		if( is_numeric( $num_of_posts ) ) {
+			$num_of_posts = $num_of_posts;
+		} else {
+			$num_of_posts = -1;
+		}
+
 		$args = array(
 			'post_type' 		=> $post_type,
 			'post_status'    	=> 'publish',

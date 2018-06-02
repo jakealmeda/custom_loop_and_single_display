@@ -108,7 +108,7 @@ class SWPCustomVideosLoop {
 		    */
 		    return '<div class="module-video"><div class="module-wrap">
 		    				'.do_shortcode( "[swp_lightbox src='".$swp_video_link."']
-			    				<div class='item-play'</div>
+			    				<div class='item-play'></div>
 			    				<div class='item-pic'>
 			                        <img src='".plugins_url( 'images/'.$swp_target_dir.'/0/'.$videoclipid.'.jpg', __FILE__ )."' class='thumbnail' />
 			                    </div>
@@ -241,11 +241,28 @@ $swpcustomvideosloop = new SWPCustomVideosLoop();
  * Shortcode for internal posts - this will download thumbnails
  * first so the video can be loaded through lightbox
  * --------------------------------------------------------- */
-/*class swpinternalpostvideos() {
+class SWPInternalPostVideos {
 
 	// main function
 	public function swp_internal_post_videos_func( $params = array() ) {
 
+		extract(shortcode_atts(array(
+			'url' 		=> 'url',
+		), $params));
+
+		$videotemp = new SWPCustomVideosLoop();
+		
+		return $videotemp->swp_display_the_video( $url, $videotemp->swp_get_video_clip_id( $url ) );
+
 	}
 
-}*/
+	// CONSTRUCT
+	public function __construct() {
+		
+		add_shortcode( 'swp_su_video', array( $this, 'swp_internal_post_videos_func' ) );
+
+    }
+
+}
+
+$swpinternalpostvideos = new SWPInternalPostVideos();

@@ -1,5 +1,10 @@
 <?php
 // template for displaying gallery post format
+
+if ( ! defined( 'ABSPATH' ) ) {
+    exit; // Exit if accessed directly
+}
+
 ?>
 
 <div class="module module-gallery">

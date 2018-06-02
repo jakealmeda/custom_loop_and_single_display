@@ -19,19 +19,10 @@ class SWPCustomMatchesLoop {
 			'order'				=> 'order',
 		), $params));
 
-		global $post;
-
-		// check posts per page value
-		if( is_numeric( $posts_per_page ) ) {
-			$posts_per_page_count = $posts_per_page;
-		} else {
-			$posts_per_page_count = -1;
-		}
-
-		global $wp_query;
+		global $post, $wp_query;
 
 		$swp_new_query = new SWPWPQueryPosts();
-		$wp_query = $swp_new_query->swp_query_archive_posts( $post_type, $posts_per_page_count, $orderby, $order );
+		$wp_query = $swp_new_query->swp_query_archive_posts( $post_type, $posts_per_page, 'NULL', $orderby, $order );
 
 		if ( have_posts() ) : 
 

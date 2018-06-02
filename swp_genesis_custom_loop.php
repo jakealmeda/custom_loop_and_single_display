@@ -37,7 +37,7 @@ class SWPGenesisCustomPostLoop extends SWPWPQueryPosts {
 
 			?><section class="area-home"><div class="section-wrap"><?php
 
-				// SECTION-MAINSTORY (WP POSTS) CONTAINER - OPEN
+				// SECTION-POSTS (INTERNAL) CONTAINER - OPEN
 				?><section class="area-post"><div class="area-wrap"><?php
 
 				while ( $the_query->have_posts() ) {
@@ -156,7 +156,7 @@ class SWPGenesisCustomPostLoop extends SWPWPQueryPosts {
 				/* PAGINATION END
 				 * ---------------------------------------------------------------------------- */
 
-				// SECTION-MAINSTORY (WP POSTS) CONTAINER - CLOSE
+				// SECTION-POSTS (INTERNAL) CONTAINER - CLOSE
 				?></div></section>
 
 				<?php
@@ -177,7 +177,7 @@ class SWPGenesisCustomPostLoop extends SWPWPQueryPosts {
 				<?php // VIDEOS CONTAINER - OPEN ?>
 				<section class="area-videos"><div class="area-wrap">
 
-					<?php echo do_shortcode( '[swp_video_loop_display post_type="matches" posts_per_page="3" orderby="post_date" order="desc"][/swp_video_loop_display]' ); ?>
+					<?php echo do_shortcode( '[swp_video_loop_display post_type="matches" posts_per_page="-1" orderby="post_date" order="desc"][/swp_video_loop_display]' ); ?>
 
 				<?php // VIDEOS POSTS CONTAINER - CLOSE ?>
 				</div></section>

@@ -19,15 +19,10 @@ class SWPTimeLineStories {
 			'order'				=> 'order',
 		), $params));
 
-		// check posts per page value
-		if( is_numeric( $posts_per_page ) ) {
-			$posts_per_page_count = $posts_per_page;
-		} else {
-			$posts_per_page_count = -1;
-		}
 // ----------------------------------------------
-		
-		$query = new WP_Query( array( 'posts_per_page' => $posts_per_page_count, 'post_type' => $post_type, 'orderby' => $orderby, 'order' => $order ) );
+		$swp_new_query = new SWPWPQueryPosts();
+		//$query = new WP_Query( array( 'posts_per_page' => $posts_per_page_count, 'post_type' => $post_type, 'orderby' => $orderby, 'order' => $order ) );
+		$query = $swp_new_query->swp_query_archive_posts( $post_type, $posts_per_page, 'NULL', $orderby, $order );
 
 		while ($query->have_posts()) : $query->the_post();
 
@@ -48,28 +43,19 @@ class SWPTimeLineStories {
 
 			// download external images first
 			$featured_image = get_post_field( 'featured_image', get_the_ID(), $context );
+			//echo '<img src="'.$featured_image.'" />';
 			if( $featured_image ) {
 
 				$download_featured_image = new SWPCustomVideosLoop();
-				$new_dir = $download_featured_image->spk_download_video_thumb( $filename, $image_sub_dir, get_term_meta( $get_the_term_id, 'source_url', TRUE ), $image_sub_dir_sub );
+				$new_dir = $download_featured_image->spk_download_video_thumb( $filename, $image_sub_dir, $featured_image, $image_sub_dir_sub );
 
 			} else {
 				// featured image on the article host was removed; use local copy
 
 			}
 
-			    $path = get_post_field( 'featured_image', get_the_ID(), $context );
-			    $echo = pathinfo( $path );
-			    //echo $echo['dirname'].' | '; var_dump( $echo['basename']) ; echo ' | '.$echo['filename'].' | '.$echo['extension'];
-			    var_dump( getimagesize( $path ) ); echo '<br />';
-			    echo '<h3>'.getimagesize( $path )->mime.'</h3>';
-			    if( $this->is_image( $path ) ) {
-			    	//echo 'TRUE: '.$path;
-			    }
-
-
 			// use this featured image
-			$featured_image = plugin_dir_url( __FILE__ ).'images/'.$image_sub_dir.'/'.$image_sub_dir_sub.$filename.'.jpg';
+			$featured_image_local = plugin_dir_url( __FILE__ ).'images/'.$image_sub_dir.'/'.$image_sub_dir_sub.$filename.'.jpg';
 
 			include( 'views/swp_timeline_display.php' );
 
