@@ -246,4 +246,6 @@ $swpcustomvideosloop = new SWPCustomVideosLoop();
 	// main function
 	public function swp_internal_post_videos_func( $params = array() ) {
 
+	}
+
 }*/
